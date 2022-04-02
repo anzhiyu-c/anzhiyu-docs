@@ -1,10 +1,12 @@
 module.exports = {
-  title: '社区指南',
+  title: '安知鱼社区指南',
   description: '社区规范,安知鱼',
   lang: 'zh-CN',
   themeConfig: {
     sidebarDepth: 1,
-    lastUpdated: '上次更新',
+    logo: './images/c192.png',
+    contributorsText: '贡献者',
+    lastUpdatedText: '上次更新',
     navbar: [
       { text: '指南', link: '/' },
       { text: '主站', link: 'https://cloud.anzhiy.cn/' },
@@ -30,4 +32,16 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: '搜索',
+          },
+        },
+      },
+    ],
+  ],
 }
