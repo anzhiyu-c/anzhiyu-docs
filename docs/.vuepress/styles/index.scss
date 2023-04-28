@@ -1,5 +1,6 @@
 :root {
   --detail-code-bg-color: #603aaa !important;
+  --anzhiyu-code-color: #4e6e8e
   --anzhiyu-tr-bg-light: #f3f4f5;
   // brand colors
   --c-brand: #603aaa;
@@ -187,4 +188,8 @@ thead tr {
 
 .page-meta .meta-item .meta-item-label {
   color: #525354;
+}
+
+.hint-container code {
+  color: var(--anzhiyu-code-color);
 }

@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-04-02 18:22:05
- * @LastEditTime: 2023-04-28 19:04:09
+ * @LastEditTime: 2023-04-28 19:59:18
  * @LastEditors: 安知鱼
  */
 import { defineUserConfig, defaultTheme } from "vuepress";
@@ -42,6 +42,10 @@ export default defineUserConfig({
         text: "站点配置",
         link: "/site-configuration.html",
       },
+      {
+        text: "赞赏名单",
+        link: "/reward-list.html",
+      },
     ],
   }),
   plugins: [
@@ -65,6 +69,14 @@ export default defineUserConfig({
       tabs: true,
       codetabs: true,
       container: true,
+      // 启用 figure
+      figure: true,
+      // 启用图片懒加载
+      imgLazyload: true,
+      // 启用图片标记
+      imgMark: true,
+      // 启用图片大小
+      imgSize: true,
     }),
   ],
 });
