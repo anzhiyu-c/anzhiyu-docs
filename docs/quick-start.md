@@ -5,9 +5,13 @@
 
 ## 💻 安裝
 
+::: tabs
+
+@tab:active github 安装
+
 在博客根目录里安装最新版【推荐】
 
-```powershell
+```bash
 git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu
 ```
 
@@ -17,22 +21,36 @@ git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anz
 
 如果想要安装比较新的 dev 分支，可以
 
-```powershell
+```bash
 git clone -b dev https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu
 ```
 
-> 升级方法：在主题目录下，运行 `git pull`
+**升级方法**：在主题目录下，运行
 
-> 此方法只支持 Hexo 5.0.0 以上版本
-> **通过 npm 安装并不会在 themes 里生成主题文件夹，而是在 node_modules 里生成**
+```bash
+git pull
+```
 
-```powershell
+或者删除**anzhiyu**文件夹
+
+@tab npm 安装
+
+此方法只支持 Hexo 5.0.0 以上版本
+**通过 npm 安装并不会在 themes 里生成主题文件夹，而是在 node_modules 里生成**
+
+```bash
 npm i hexo-theme-anzhiyu
 ```
 
-> 升级方法：在 Hexo 根目录下，运行 npm update hexo-theme-anzhiyu
+> 升级方法：在 Hexo 根目录下，运行
 
-什么？你还是不会？这里有视频 {% btn 'https://www.bilibili.com/video/BV1Rs4y127hu/?spm_id_from=333.788&vd_source=4d9717102296e4b7a60ecdfad55ae2dd', AnZhiYu主题安装教程,far fa-hand-point-right %}
+```bash
+npm update hexo-theme-anzhiyu
+```
+
+:::
+
+什么？你还是不会？这里有视频 [AnZhiYu 主题安装教程](https://www.bilibili.com/video/BV1Rs4y127hu/?spm_id_from=333.788&vd_source=4d9717102296e4b7a60ecdfad55ae2dd)
 
 ## ⚙ 应用主题
 
@@ -81,14 +99,15 @@ hexo s
 ## 群聊
 
 群号：`464636182`
-![464636182](https://img02.anzhiy.cn/adminuploads/1/2023/04/14/6438b945e1834.webp)
+
+<div>
+<img height="300" alt="交流群464636182" src="https://img02.anzhiy.cn/adminuploads/1/2023/04/14/6438b945e1834.webp" />
+</div>
 
 ## 技术支持
 
-联系 QQ`2268025923`或群聊内咨询
+联系 QQ`2268025923`或群聊`464636182`内咨询
 
 ## 主题设计
 
 [@张洪 Heo](https://github.com/zhheo)
-
-{% btn 'https://anzhiy.cn/posts/220c.html', AnZhiYu主题安装文档（一）,far fa-hand-point-right %}

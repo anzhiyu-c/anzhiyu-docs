@@ -3,15 +3,20 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-04-02 18:22:05
- * @LastEditTime: 2023-04-28 11:39:15
+ * @LastEditTime: 2023-04-28 19:04:09
  * @LastEditors: 安知鱼
  */
-module.exports = {
+import { defineUserConfig, defaultTheme } from "vuepress";
+import { searchPlugin } from "@vuepress/plugin-search";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+import { copyCodePlugin } from "vuepress-plugin-copy-code2";
+
+export default defineUserConfig({
   title: "安知鱼主题指南",
-  description: "anzhiyu,hexo主题,hexo,anzhiyu主题,安知鱼",
+  description: "anzhiyu,hexo主题,anzhiyu主题,安知鱼,博客,魔改,简单的hexo主题,简洁的hexo主题,hexo",
   lang: "zh-CN",
   base: "/docs/",
-  themeConfig: {
+  theme: defaultTheme({
     sidebarDepth: 1,
     logo: "./images/c192.png",
     contributorsText: "贡献者",
@@ -38,17 +43,28 @@ module.exports = {
         link: "/site-configuration.html",
       },
     ],
-  },
+  }),
   plugins: [
-    [
-      "@vuepress/plugin-search",
-      {
-        locales: {
-          "/": {
-            placeholder: "搜索",
-          },
+    searchPlugin({
+      locales: {
+        "/": {
+          placeholder: "Search",
+        },
+        "/zh/": {
+          placeholder: "搜索",
         },
       },
-    ],
+    }),
+    copyCodePlugin({
+      // your options
+    }),
+    mdEnhancePlugin({
+      align: true,
+      attrs: true,
+      card: true,
+      tabs: true,
+      codetabs: true,
+      container: true,
+    }),
   ],
-};
+});

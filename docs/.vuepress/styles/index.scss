@@ -1,11 +1,13 @@
 :root {
+  --detail-code-bg-color: #603aaa !important;
+  --anzhiyu-tr-bg-light: #f3f4f5;
   // brand colors
   --c-brand: #603aaa;
   --c-brand-light: #603aaa;
 
   // background colors
   --c-bg: #ffffff;
-  --c-bg-light: #f3f4f5;
+  --c-bg-light: #603aaa;
   --c-bg-lighter: #eeeeee;
   --c-bg-navbar: var(--c-bg);
   --c-bg-sidebar: var(--c-bg);
@@ -15,7 +17,7 @@
   --c-text: #2c3e50;
   --c-text-accent: var(--c-brand);
   --c-text-light: #3a5169;
-  --c-text-lighter: #4e6e8e;
+  --c-text-lighter: #ffffff;
   --c-text-lightest: #6a8bad;
   --c-text-quote: #999999;
 
@@ -57,9 +59,9 @@
   --code-ln-wrapper-width: 3.5rem;
 
   // font vars
-  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  --font-family-code: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-family-code: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
   // layout vars
   --navbar-height: 3.6rem;
@@ -139,13 +141,13 @@ html.dark {
 
   // background colors
   --c-bg: #22272e;
-  --c-bg-light: #2b313a;
+  --c-bg-light: #603aaa;
   --c-bg-lighter: #262c34;
 
   // text colors
   --c-text: #adbac7;
   --c-text-light: #96a7b7;
-  --c-text-lighter: #8b9eb0;
+  --c-text-lighter: #fff;
   --c-text-lightest: #8094a8;
 
   // border colors
@@ -172,8 +174,17 @@ html.dark {
 html.dark .DocSearch {
   --docsearch-logo-color: var(--c-text);
   --docsearch-modal-shadow: inset 1px 1px 0 0 #2c2e40, 0 3px 8px 0 #000309;
-  --docsearch-key-shadow: inset 0 -2px 0 0 #282d55, inset 0 0 1px 1px #51577d,
-    0 2px 2px 0 rgba(3, 4, 9, 0.3);
+  --docsearch-key-shadow: inset 0 -2px 0 0 #282d55, inset 0 0 1px 1px #51577d, 0 2px 2px 0 rgba(3, 4, 9, 0.3);
   --docsearch-key-gradient: linear-gradient(-225deg, #444950, #1c1e21);
   --docsearch-footer-shadow: inset 0 1px 0 0 rgba(73, 76, 106, 0.5), 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+// 自定义css
+tr:nth-child(2n),
+thead tr {
+  background-color: var(--anzhiyu-tr-bg-light);
+}
+
+.page-meta .meta-item .meta-item-label {
+  color: #525354;
 }
