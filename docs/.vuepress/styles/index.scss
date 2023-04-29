@@ -193,3 +193,6 @@ thead tr {
 .hint-container code {
   color: var(--anzhiyu-code-color);
 }
+tr:nth-child(2n) code {
+  background-color: var(--c-bg-light);
+}

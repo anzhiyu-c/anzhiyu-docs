@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-04-02 18:22:05
- * @LastEditTime: 2023-04-28 20:21:16
+ * @LastEditTime: 2023-04-29 13:06:33
  * @LastEditors: 安知鱼
  */
 import { defineUserConfig, defaultTheme } from "vuepress";
@@ -16,7 +16,7 @@ export default defineUserConfig({
   description: "anzhiyu,hexo主题,anzhiyu主题,安知鱼,博客,魔改,简单的hexo主题,简洁的hexo主题,hexo",
   lang: "zh-CN",
   base: "/docs/",
-  head: [["link", { rel: "icon", href: "/img/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "/docs/images/c192.png" }]],
   theme: defaultTheme({
     sidebarDepth: 1,
     logo: "./images/c192.png",
@@ -40,8 +40,12 @@ export default defineUserConfig({
         link: "/page-configuration.html",
       },
       {
-        text: "站点配置",
-        link: "/site-configuration.html",
+        text: "站点配置(一)",
+        link: "/site-configuration1.html",
+      },
+      {
+        text: "站点配置(二)",
+        link: "/site-configuration2.html",
       },
       {
         text: "赞赏名单",

@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-title: 站点基础配置
+title: 站点基础配置(一)
 description: 安知鱼主题站点基础配置
 ---
 
