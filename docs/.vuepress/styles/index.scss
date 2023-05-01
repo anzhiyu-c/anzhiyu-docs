@@ -196,3 +196,10 @@ thead tr {
 tr:nth-child(2n) code {
   background-color: var(--c-bg-light);
 }
+.search-box .suggestion.focus a {
+  background-color: var(--search-item-focus-bg-color);
+  color: var(--search-item-text-color) !important;
+}
+.search-box .suggestion a {
+  color: var(--c-text-accent) !important;
+}
