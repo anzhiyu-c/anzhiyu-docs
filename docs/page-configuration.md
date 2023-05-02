@@ -939,7 +939,7 @@ type: "album_detail"
 ]
 ```
 
-::: tabs 相册页 type
+::: tabs#相册页 type
 
 @tab 相册页
 
@@ -957,6 +957,11 @@ type: "album_detail"
 
 ## 朋友圈页面配置
 
+> 友链朋友圈[后端部署文档](https://fcircle-doc.yyyzyyyz.cn/#/backenddeploy)
+> 项目地址: [https://github.com/Rock-Candy-Tea/hexo-circle-of-friends](https://github.com/Rock-Candy-Tea/hexo-circle-of-friends)
+
+请注意朋友圈部署有一定难度，博主使用的为 server 部署，拉取后端代码后可将代码内的默认值改为自己的站点，theme 改为 common2，注意一定要使用`common2`，否则将无法拉取到自己的友链。
+
 在 Hexo 博客根目录 `[blog]`下打开终端，输入
 
 ```bash
@@ -965,15 +970,15 @@ type: "album_detail"
 
 打开`[blog]\source\fcircle\index.md`,添加一行`type: 'fcircle'`:
 
-```MARKDOWN
-  ---
-  title: 朋友圈
-  date: 2022-11-21 17:06:17
-  comments: false
-  aside: false
-  top_img: false
-  type: "fcircle"
-  ---
+```md
+---
+title: 朋友圈
+date: 2022-11-21 17:06:17
+comments: false
+aside: false
+top_img: false
+type: "fcircle"
+---
 ```
 
 主题配置文件中开启`menu`中友链和朋友圈的注释，导航栏朋友圈，注意缩进！！！
@@ -1002,7 +1007,11 @@ menu:
     #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
 ```
 
-主题配置文件中开启`friends_vue.enable`，自行设置 twikoo 地址和顶部模块背景，注意缩进！！！
+主题配置文件中开启`friends_vue.enable`，自行设置[朋友圈后端地址](https://fcircle-doc.yyyzyyyz.cn/#/backenddeploy)和顶部模块背景，注意缩进！！！
+
+::: warning 注意
+注意后端爬取需使用`common2`
+:::
 
 ```yml
 # 朋友圈配置
@@ -1031,7 +1040,9 @@ friends_vue:
 ```
 
 其中`vue_js`参数，可以将`https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/js/friends_vue/index.js`中的
-`friends.anzhiy.cn`替换为您的后端 url 然后使用，原项目地址：[hexo-circle-of-friends-front](https://github.com/anzhiyu-c/hexo-circle-of-friends-front/tree/anzhiyu)，也可以自行下载项目后，修改代码中的 url 变量路径`friends.anzhiy.cn`为你自己的，然后执行`npm run build`构建使用，注意后端爬取需使用`common2`
+`friends.anzhiy.cn`替换为您的后端 url 然后使用
+
+前端项目地址：[hexo-circle-of-friends-front](https://github.com/anzhiyu-c/hexo-circle-of-friends-front/)，也可以自行下载项目后，修改代码中的 url 变量路径`friends.anzhiy.cn`为你自己的，然后执行`npm run build`构建使用，
 
 主题配置文件中开启`menu`中友链和朋友圈的注释，注意缩进！！！
 
