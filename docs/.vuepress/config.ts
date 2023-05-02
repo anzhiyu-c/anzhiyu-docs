@@ -49,6 +49,10 @@ export default defineUserConfig({
         link: "/site-configuration2.html",
       },
       {
+        text: "站点配置(三)",
+        link: "/site-configuration3.html",
+      },
+      {
         text: "赞赏名单",
         link: "/reward-list.html",
       },
