@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-04-02 18:22:05
- * @LastEditTime: 2023-04-29 13:06:33
+ * @LastEditTime: 2023-05-02 11:15:10
  * @LastEditors: 安知鱼
  */
 import { defineUserConfig, defaultTheme } from "vuepress";
@@ -24,6 +24,7 @@ export default defineUserConfig({
     lastUpdatedText: "上次更新",
     navbar: [
       { text: "指南", link: "/" },
+      { text: "Github", link: "https://github.com/anzhiyu-c/anzhiyu-docs/" },
       { text: "作者博客", link: "https://anzhiy.cn/" },
     ],
     sidebar: [
