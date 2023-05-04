@@ -15,8 +15,9 @@ description: 安知鱼主题赞赏名单
 **赞赏名单**
 
 ```card
-title: "*!"
+title: "湘铭呀！"
 logo: https://img02.anzhiy.cn/adminuploads/1/2023/04/28/644bb485732c1.webp
 desc: 20元
 color: rgba(253, 230, 138, 0.15)
+link: https://blog.xiangming.site
 ```
