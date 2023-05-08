@@ -15,6 +15,21 @@ description: 安知鱼主题赞赏名单
 **赞赏名单**
 
 ```card
+title: "你呀ʕ̯•͡ˑ͓•̯᷅ʔ"
+logo: https://img02.anzhiy.cn/adminuploads/1/2023/05/08/6459175656300.jpeg
+desc: 50元
+color: rgba(253, 230, 138, 0.15)
+```
+
+```card
+title: "rencai"
+logo: https://img02.anzhiy.cn/adminuploads/1/2023/05/08/645914b049c7f.webp
+desc: 8.88元
+color: rgba(253, 230, 138, 0.15)
+link: https://www.btrencai.top
+```
+
+```card
 title: "*玺"
 logo: https://img02.anzhiy.cn/adminuploads/1/2023/05/07/6457a1aae6b53.png
 desc: 66.66元
