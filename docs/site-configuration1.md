@@ -5,8 +5,8 @@ description: 安知鱼主题站点基础配置
 ---
 
 ::: warning 警告
-本教程更新于 2023 年 4 月 24 日，教程的内容针对最新的 anzhiyu 主题(如果你是旧版本，教程会有出入，请留意)
-🐟 安知鱼 已经更新到 [1.1.8](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/releases/tag/1.1.8)
+本教程更新于 2023 年 5 月 09 日，教程的内容针对最新的 anzhiyu 主题(如果你是旧版本，教程会有出入，请留意)
+🐟 安知鱼 已经更新到 [1.1.9](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/releases/tag/1.1.9)
 :::
 
 ## 语言
