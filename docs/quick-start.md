@@ -94,7 +94,7 @@ hexo s
 
 ## 有问题?
 
-可到仓库提交 [isses](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/issues)
+可到仓库提交 [issues](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/issues)
 
 ## 群聊
 
