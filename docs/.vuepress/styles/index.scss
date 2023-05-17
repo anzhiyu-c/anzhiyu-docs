@@ -210,3 +210,6 @@ tr:nth-child(2n) code {
 .search-box .suggestion a {
   color: var(--c-text-accent) !important;
 }
+.hint-container.details code {
+  color: #fff;
+}

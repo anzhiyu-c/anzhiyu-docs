@@ -248,7 +248,6 @@ top_img: false
 ```
 
 :::
-:::
 
 ![分类页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/643263a321142.png!blogimg)
 
@@ -277,6 +276,8 @@ top_img: false
   type: essay
   ---
 ```
+
+5. 添加数据，新建文件`[blog]\source\_data\essay.yml`,没有`_data`文件夹的话也请自己新建。以下是默认格式示例，打开`[blog]\source\_data\essay.yml`，输入：
 
 ```yml
 - class_name: 即刻短文
