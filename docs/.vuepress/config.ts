@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-04-02 18:22:05
- * @LastEditTime: 2023-05-02 11:15:10
+ * @LastEditTime: 2023-05-22 15:12:18
  * @LastEditors: 安知鱼
  */
 import { defineUserConfig, defaultTheme } from "vuepress";
@@ -51,6 +51,10 @@ export default defineUserConfig({
       {
         text: "站点配置(三)",
         link: "/site-configuration3.html",
+      },
+      {
+        text: "站点配置(四)",
+        link: "/site-configuration4.html",
       },
       {
         text: "赞赏名单",

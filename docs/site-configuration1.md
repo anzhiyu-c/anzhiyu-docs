@@ -5,8 +5,8 @@ description: 安知鱼主题站点基础配置
 ---
 
 ::: warning 警告
-本教程更新于 2023 年 5 月 11 日，教程的内容针对最新的 anzhiyu 主题(如果你是旧版本，教程会有出入，请留意)
-🐟 安知鱼 已经更新到 [1.2.0](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/releases/tag/1.2.0)
+本教程更新于 2023 年 5 月 22 日，教程的内容针对最新的 anzhiyu 主题(如果你是旧版本，教程会有出入，请留意)
+🐟 安知鱼 已经更新到 [1.2.1](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/releases/tag/1.2.1)
 :::
 
 ## 语言
@@ -326,15 +326,15 @@ icons:
 
 配置中的值：
 
-| 配置             | 解释                                                                |
-| ---------------- | ------------------------------------------------------------------- |
-| index_img        | 主页的 top_img                                                      |
-| default_top_img  | 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img |
-| archive_img      | 归档页面的 top_img                                                  |
-| tag_img          | tag 子页面 的 默认 top_img                                          |
-| tag_per_img      | tag 子页面的 top_img，可配置每个 tag 的 top_img                     |
-| category_img     | category 子页面 的 默认 top_img                                     |
-| category_per_img | category 子页面的 top_img，可配置每个 category 的 top_img           |
+| 配置             | 解释                                                                                                    |
+| ---------------- | ------------------------------------------------------------------------------------------------------- |
+| index_img        | 主页的 top_img，示例值: index_img: "background: url(https://img02.anzhiy.cn/xxx) top / cover no-repeat" |
+| default_top_img  | 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img                                     |
+| archive_img      | 归档页面的 top_img                                                                                      |
+| tag_img          | tag 子页面 的 默认 top_img                                                                              |
+| tag_per_img      | tag 子页面的 top_img，可配置每个 tag 的 top_img                                                         |
+| category_img     | category 子页面 的 默认 top_img                                                                         |
+| category_per_img | category 子页面的 top_img，可配置每个 category 的 top_img                                               |
 
 其它页面 （tags/categories/自建页面）和 文章页 的 `top_img` ，请到对应的 md 页面设置 `front-matter` 中的 `top_img`
 
