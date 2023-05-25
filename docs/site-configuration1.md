@@ -34,25 +34,25 @@ description: 安知鱼主题站点基础配置
 ```yaml
 menu:
   文章:
-    隧道: /archives/ || icon-box-archive
-    分类: /categories/ || icon-shapes
-    标签: /tags/ || icon-tags
+    隧道: /archives/ || anzhiyu-icon-box-archive
+    分类: /categories/ || anzhiyu-icon-shapes
+    标签: /tags/ || anzhiyu-icon-tags
 
   友链:
-    友人帐: /link/ || icon-link
-    朋友圈: /fcircle/ || icon-artstation
-    留言板: /comments/ || icon-envelope
+    友人帐: /link/ || anzhiyu-icon-link
+    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
-    音乐馆: /music/ || icon-music
-    追番页: /bangumis/ || icon-bilibili1
-    相册集: /album/ || icon-images
-    小空调: /air-conditioner/ || icon-fan
+    音乐馆: /music/ || anzhiyu-icon-music
+    追番页: /bangumis/ || anzhiyu-icon-bilibili
+    相册集: /album/ || anzhiyu-icon-images
+    小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
-    关于本人: /about/ || icon-zhifeiji
-    闲言碎语: /essay/ || icon-lightbulb
-    随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
+    关于本人: /about/ || anzhiyu-icon-paper-plane
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 ```
 
 必须是 `/xxx/`，后面`||`分开，然后写图标名。

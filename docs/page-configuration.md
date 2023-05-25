@@ -333,25 +333,25 @@ top_img: false
 ```yml
 menu:
   # 文章:
-  #   隧道: /archives/ || icon-box-archive
-  #   分类: /categories/ || icon-shapes
-  #   标签: /tags/ || icon-tags
+  #   隧道: /archives/ || anzhiyu-icon-box-archive
+  #   分类: /categories/ || anzhiyu-icon-shapes
+  #   标签: /tags/ || anzhiyu-icon-tags
 
   # 友链:
-  #   友人帐: /link/ || icon-link
-  #   朋友圈: /fcircle/ || icon-artstation
-  #   留言板: /comments/ || icon-envelope
+  #   友人帐: /link/ || anzhiyu-icon-link
+  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+  #   留言板: /comments/ || anzhiyu-icon-envelope
 
   # 我的:
-  #   音乐馆: /music/ || icon-music
-  #   追番页: /bangumis/ || icon-bilibili1
-  #   相册集: /album/ || icon-images
-  #   小空调: /air-conditioner/ || icon-fan
+  #   音乐馆: /music/ || anzhiyu-icon-music
+  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+  #   相册集: /album/ || anzhiyu-icon-images
+  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
-    #   关于本人: /about/ || icon-zhifeiji
-    闲言碎语: /essay/ || icon-lightbulb
-    #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
+    #   关于本人: /about/ || anzhiyu-icon-paper-plane
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 ```
 
 主题配置文件中开启`essay.enable`，自行设置顶部模块背景，注意缩进！！！
@@ -443,25 +443,25 @@ flink_style: flexcard || anzhiyu
 ```yml
 menu:
   # 文章:
-  #   隧道: /archives/ || icon-box-archive
-  #   分类: /categories/ || icon-shapes
-  #   标签: /tags/ || icon-tags
+  #   隧道: /archives/ || anzhiyu-icon-box-archive
+  #   分类: /categories/ || anzhiyu-icon-shapes
+  #   标签: /tags/ || anzhiyu-icon-tags
 
   友链:
-    友人帐: /link/ || icon-link
-  #   朋友圈: /fcircle/ || icon-artstation
-  #   留言板: /comments/ || icon-envelope
+    友人帐: /link/ || anzhiyu-icon-link
+  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+  #   留言板: /comments/ || anzhiyu-icon-envelope
 
   # 我的:
-  #   音乐馆: /music/ || icon-music
-  #   追番页: /bangumis/ || icon-bilibili1
-  #   相册集: /album/ || icon-images
-  #   小空调: /air-conditioner/ || icon-fan
+  #   音乐馆: /music/ || anzhiyu-icon-music
+  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+  #   相册集: /album/ || anzhiyu-icon-images
+  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
-    #   关于本人: /about/ || icon-zhifeiji
-    闲言碎语: /essay/ || icon-lightbulb
-    #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
+    #   关于本人: /about/ || anzhiyu-icon-paper-plane
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 ```
 
 ![友情链接页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/6432641611b97.png!blogimg)
@@ -498,52 +498,26 @@ menu:
    ```yml
    menu:
      # 文章:
-     #   隧道: /archives/ || icon-box-archive
-     #   分类: /categories/ || icon-shapes
-     #   标签: /tags/ || icon-tags
+     #   隧道: /archives/ || anzhiyu-icon-box-archive
+     #   分类: /categories/ || anzhiyu-icon-shapes
+     #   标签: /tags/ || anzhiyu-icon-tags
 
      友链:
-       友人帐: /link/ || icon-link
-     #   朋友圈: /fcircle/ || icon-artstation
-     #   留言板: /comments/ || icon-envelope
+       友人帐: /link/ || anzhiyu-icon-link
+     #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     #   留言板: /comments/ || anzhiyu-icon-envelope
 
      我的:
-       音乐馆: /music/ || icon-music
-     #   追番页: /bangumis/ || icon-bilibili1
-     #   相册集: /album/ || icon-images
-     #   小空调: /air-conditioner/ || icon-fan
+       音乐馆: /music/ || anzhiyu-icon-music
+     #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+     #   相册集: /album/ || anzhiyu-icon-images
+     #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
      关于:
-       关于本人: /about/ || icon-zhifeiji
-       闲言碎语: /essay/ || icon-lightbulb
-       #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
+       关于本人: /about/ || anzhiyu-icon-paper-plane
+       闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+       #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
    ```
-
-主题配置文件中开启`menu`中关于和关于本人的注释，注意缩进！！！
-
-```yml
-menu:
-  # 文章:
-  #   隧道: /archives/ || icon-box-archive
-  #   分类: /categories/ || icon-shapes
-  #   标签: /tags/ || icon-tags
-
-  友链:
-    友人帐: /link/ || icon-link
-  #   朋友圈: /fcircle/ || icon-artstation
-  #   留言板: /comments/ || icon-envelope
-
-  # 我的:
-  #   音乐馆: /music/ || icon-music
-  #   追番页: /bangumis/ || icon-bilibili1
-  #   相册集: /album/ || icon-images
-  #   小空调: /air-conditioner/ || icon-fan
-
-  关于:
-    关于本人: /about/ || icon-zhifeiji
-    闲言碎语: /essay/ || icon-lightbulb
-    #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
-```
 
 新建`source/_data/about.yml`，输入以下内容
 
@@ -799,25 +773,25 @@ menu:
    ```yml
    menu:
      # 文章:
-     #   隧道: /archives/ || icon-box-archive
-     #   分类: /categories/ || icon-shapes
-     #   标签: /tags/ || icon-tags
+     #   隧道: /archives/ || anzhiyu-icon-box-archive
+     #   分类: /categories/ || anzhiyu-icon-shapes
+     #   标签: /tags/ || anzhiyu-icon-tags
 
      友链:
-       友人帐: /link/ || icon-link
-     #   朋友圈: /fcircle/ || icon-artstation
-     #   留言板: /comments/ || icon-envelope
+       友人帐: /link/ || anzhiyu-icon-link
+     #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     #   留言板: /comments/ || anzhiyu-icon-envelope
 
      我的:
-       音乐馆: /music/ || icon-music
-       #   追番页: /bangumis/ || icon-bilibili1
-       相册集: /album/ || icon-images
-     #   小空调: /air-conditioner/ || icon-fan
+       音乐馆: /music/ || anzhiyu-icon-music
+       #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+       相册集: /album/ || anzhiyu-icon-images
+     #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
      关于:
-       #   关于本人: /about/ || icon-zhifeiji
-       闲言碎语: /essay/ || icon-lightbulb
-       #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
+       #   关于本人: /about/ || anzhiyu-icon-paper-plane
+       闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+       #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
    ```
 
 新建文件`[blog]\source\_data\album.yml`,没有`_data`文件夹的话也请自己新建。打开`[blog]\source\_data\album.yml`，输入：
@@ -987,25 +961,25 @@ type: "fcircle"
 ```yml
 menu:
   # 文章:
-  #   隧道: /archives/ || icon-box-archive
-  #   分类: /categories/ || icon-shapes
-  #   标签: /tags/ || icon-tags
+  #   隧道: /archives/ || anzhiyu-icon-box-archive
+  #   分类: /categories/ || anzhiyu-icon-shapes
+  #   标签: /tags/ || anzhiyu-icon-tags
 
   友链:
-    #   友人帐: /link/ || icon-link
-    朋友圈: /fcircle/ || icon-artstation
-    #   留言板: /comments/ || icon-envelope
+    #   友人帐: /link/ || anzhiyu-icon-link
+    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    #   留言板: /comments/ || anzhiyu-icon-envelope
 
   # 我的:
-  #   音乐馆: /music/ || icon-music
-  #   追番页: /bangumis/ || icon-bilibili1
-  #   相册集: /album/ || icon-images
-  #   小空调: /air-conditioner/ || icon-fan
+  #   音乐馆: /music/ || anzhiyu-icon-music
+  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+  #   相册集: /album/ || anzhiyu-icon-images
+  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
-    #   关于本人: /about/ || icon-zhifeiji
-    闲言碎语: /essay/ || icon-lightbulb
-    #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
+    #   关于本人: /about/ || anzhiyu-icon-paper-plane
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 ```
 
 主题配置文件中开启`friends_vue.enable`，自行设置[朋友圈后端地址](https://fcircle-doc.yyyzyyyz.cn/#/backenddeploy)和顶部模块背景，注意缩进！！！
@@ -1050,25 +1024,25 @@ friends_vue:
 ```yml
 menu:
   # 文章:
-  #   隧道: /archives/ || icon-box-archive
-  #   分类: /categories/ || icon-shapes
-  #   标签: /tags/ || icon-tags
+  #   隧道: /archives/ || anzhiyu-icon-box-archive
+  #   分类: /categories/ || anzhiyu-icon-shapes
+  #   标签: /tags/ || anzhiyu-icon-tags
 
   友链:
-    #  友人帐: /link/ || icon-link
-    朋友圈: /fcircle/ || icon-artstation
-  #  留言板: /comments/ || icon-envelope
+    #  友人帐: /link/ || anzhiyu-icon-link
+    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+  #  留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
-    音乐馆: /music/ || icon-music
-  #   追番页: /bangumis/ || icon-bilibili1
-  #   相册集: /album/ || icon-images
-  #   小空调: /air-conditioner/ || icon-fan
+    音乐馆: /music/ || anzhiyu-icon-music
+  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+  #   相册集: /album/ || anzhiyu-icon-images
+  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
-    #   关于本人: /about/ || icon-zhifeiji
-    闲言碎语: /essay/ || icon-lightbulb
-    #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
+    #   关于本人: /about/ || anzhiyu-icon-paper-plane
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 ```
 
 ![朋友圈页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/64326468190c2.png!blogimg)
@@ -1248,25 +1222,25 @@ menu:
    ```yml
    menu:
      # 文章:
-     #   隧道: /archives/ || icon-box-archive
-     #   分类: /categories/ || icon-shapes
-     #   标签: /tags/ || icon-tags
+     #   隧道: /archives/ || anzhiyu-icon-box-archive
+     #   分类: /categories/ || anzhiyu-icon-shapes
+     #   标签: /tags/ || anzhiyu-icon-tags
 
      友链:
-       友人帐: /link/ || icon-link
-     #   朋友圈: /fcircle/ || icon-artstation
-     #   留言板: /comments/ || icon-envelope
+       友人帐: /link/ || anzhiyu-icon-link
+     #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     #   留言板: /comments/ || anzhiyu-icon-envelope
 
      我的:
-       音乐馆: /music/ || icon-music
-     #   追番页: /bangumis/ || icon-bilibili1
-     #   相册集: /album/ || icon-images
-     #   小空调: /air-conditioner/ || icon-fan
+       音乐馆: /music/ || anzhiyu-icon-music
+     #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+     #   相册集: /album/ || anzhiyu-icon-images
+     #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
      关于:
-       #   关于本人: /about/ || icon-zhifeiji
-       闲言碎语: /essay/ || icon-lightbulb
-       #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
+       #   关于本人: /about/ || anzhiyu-icon-paper-plane
+       闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+       #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
    ```
 
 > 如何修改默认歌单?
