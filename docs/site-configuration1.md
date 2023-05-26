@@ -117,7 +117,6 @@ nav:
 | menu           | nav 左侧项目按钮内的菜单                                  |
 | menu.title     | nav 左侧项目按钮内的菜单标题                              |
 | menu.item      | nav 左侧项目按钮内的菜单项                                |
-| menu.item      | nav 左侧项目按钮内的菜单项                                |
 | menu.item.name | nav 左侧项目按钮内的菜单项标题                            |
 | menu.item.link | nav 左侧项目按钮内的菜单项链接                            |
 | menu.item.icon | nav 左侧项目按钮内的菜单项图标                            |
