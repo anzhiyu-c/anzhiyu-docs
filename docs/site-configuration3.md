@@ -142,11 +142,40 @@ article_double_row: true
 
 ## 首页顶部 3 大分类配置
 
-首页技能点轮播下的分类，可通过配置主题配置文件`home_top`
+首页技能点轮播下的分类，可通过配置主题配置文件`home_top.category`
+
+```yml
+home_top:
+  enable: true # 开关
+  timemode: date #date/updated
+  title: 生活明朗
+  subTitle: 万物可爱。
+  siteText: ANZHIY.CN
+  category:
+    - name: 前端
+      path: /categories/前端开发/
+      shadow: var(--anzhiyu-shadow-blue)
+      class: blue
+      icon: anzhiyu-icon-dove
+    - name: 大学
+      path: /categories/大学生涯/
+      shadow: var(--anzhiyu-shadow-red)
+      class: red
+      icon: anzhiyu-icon-fire
+    - name: 生活
+      path: /categories/生活日常/
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
+      icon: anzhiyu-icon-book
+```
+
+1. 首先你需要有`categories`，需配置过分类页面，具体可参考[分类页创建](https://anzhiy.cn/docs/page-configuration.html#%E5%88%86%E7%B1%BB%E9%A1%B5)
 
 ```bash
 hexo new page categories
 ```
+
+2. 当前分类下有文章，此处以`前端开发`分类为例子
 
 ```markdown
 ---
@@ -155,7 +184,17 @@ categories: 前端开发
 ---
 ```
 
+3. 当这个分类下存在文章了以后，这个分类就会产生对应的路径，比如此处产生的是`https://你的域名/categories/前端开发/`，所以配置中应该是`/categories/前端开发/`。
+
 只需要在创建分类以后在对应的文章中添加上对应的分类，配置 path 即可，注意一定要对应。
+
+| 参数   | 解释                                                             |
+| ------ | ---------------------------------------------------------------- |
+| name | 用于显示的分类名称                  |
+| path  | 跳转的路径 |
+| shadow  | 阴影的颜色 |
+| class  | 类名 |
+| icon  | 图标名，默认使用内置阿里图标参考: [图标配置](https://anzhiy.cn/docs/site-configuration1.html#%E5%9B%BE%E6%A0%87%E9%85%8D%E7%BD%AE) |
 
 ## 左下角歌单
 
