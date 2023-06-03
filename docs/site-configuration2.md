@@ -368,6 +368,7 @@ cloudflare_analytics:
 # https://clarity.microsoft.com/
 microsoft_clarity:
 ```
+:::
 
 ## 广告
 
@@ -409,6 +410,7 @@ ad:
 ```yml
 index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="xxxxxxxxxxxx" data-ad-client="ca-pub-xxxxxxxxxx" data-ad-slot="xxxxxxxxxx"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
 ```
+:::
 
 ## 页面加载动画 preloader
 

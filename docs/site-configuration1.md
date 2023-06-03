@@ -272,7 +272,7 @@ highlight_height_limit: false # unit: px
 
 ## 图标配置
 
-AnZhiYu 支持 [font-awesome v6](https://fontawesome.com/icons?from=io) 图标(需配置自己的图标)，与 [fontawesome](https://fontawesome.com/) 图标(需开启`fontawesome`)，使用阿里图标需配置主题配置文件中`iconfont`字段，默认内置部分图标，修改主题配置文件，视频教程: [安知鱼主题社交图标配置](https://www.bilibili.com/video/BV1Cv4y1n7FW/?spm_id_from=333.999.0.0&vd_source=4d9717102296e4b7a60ecdfad55ae2dd)
+AnZhiYu 支持 [阿里图标](https://www.iconfont.cn/collections/detail?cid=44481) (需配置自己的图标)，与 [font-awesome v6](https://fontawesome.com/icons?from=io) 图标(需开启`fontawesome`)，使用阿里图标需配置主题配置文件中`iconfont`字段，默认内置部分图标，修改主题配置文件，视频教程: [安知鱼主题社交图标配置](https://www.bilibili.com/video/BV1Cv4y1n7FW/?spm_id_from=333.999.0.0&vd_source=4d9717102296e4b7a60ecdfad55ae2dd)
 
 ```yaml
 icons:
@@ -281,18 +281,22 @@ icons:
   fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 ```
 
-社交图标，书写格式 `图标名：url || 描述性文字 || hover 动画名`
+内置阿里图标库：[https://www.iconfont.cn/collections/detail?cid=44481](https://www.iconfont.cn/collections/detail?cid=44481)
+
+使用方法，将图标库中的图标名复制，然后加上前缀`anzhiyu-`即可，比如`icon-github`图标，则为`anzhiyu-icon-github`。
+
+社交图标，书写格式 `名称：url || 描述性文字 || icon名称`
 
 ```yaml
 # social settings (社交图标设置)
 # formal:
-#   icon: link || the description || Animation
+#   name: link || icon
 social:
-  # Github: https://github.com/anzhiyu-c || icon-gitHub || faa-tada
-  # Email: https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=2268025923@qq.com || icon-youxiang || faa-tada
-  # RSS: atom.xml || icon-rss || faa-tada
-  # BiliBili: https://space.bilibili.com/372204786 || icon-bilibili || faa-tada
-  # QQ: tencent://Message/?Uin=2268025923&amp;websiteName=local.edu.com:8888=&amp;Menu=yes || icon-QQ1 || faa-tada
+  # Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
+  # Email: https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=2268025923@qq.com || anzhiyu-icon-envelope
+  # RSS: atom.xml || anzhiyu-icon-rss
+  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+  # QQ: tencent://Message/?Uin=2268025923&amp;websiteName=local.edu.com:8888=&amp;Menu=yes || anzhiyu-icon-qq
 ```
 
 如需 hover 动画生效需配置`fontawesome_animation_css`
