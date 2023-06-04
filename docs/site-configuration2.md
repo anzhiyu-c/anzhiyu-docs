@@ -69,6 +69,75 @@ footer:
 
 ![页脚你好自动定义文字](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/64412cb6bbbf5.png!blogimg)
 
+`socialBar`和`list`用于展示你的社交按钮及站内部分导航，它位于页面的底部。
+
+```yaml
+  socialBar:
+    enable: true
+    centerImg:
+    left:
+      - title: email
+        link: mailto:anzhiyu-c@qq.com
+        icon: anzhiyufont anzhiyu-icon-envelope
+      - title: 微博
+        link: https://weibo.com/u/6378063631
+        icon: anzhiyufont anzhiyu-icon-weibo
+      - title: facebook
+        link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
+        icon: anzhiyufont anzhiyu-icon-facebook1
+    right:
+      - title: Github
+        link: https://github.com/anzhiyu-c
+        icon: anzhiyufont anzhiyu-icon-github
+      - title: Bilibili
+        link: https://space.bilibili.com/372204786
+        icon: anzhiyufont anzhiyu-icon-bilibili
+      - title: 抖音
+        link: https://v.douyin.com/DwCpMEy/
+        icon: anzhiyufont anzhiyu-icon-tiktok
+  list:
+    enable: true
+    randomFriends: 3
+    project:
+      - title: 服务
+        links:
+          - title: 51la统计
+            link: https://v6.51.la/
+          - title: 十年之约
+            link: https://www.foreverblog.cn/
+          - title: 开往
+            link: https://github.com/travellings-link/travellings
+      - title: 主题
+        links:
+          - title: 文档
+            link: /docs/
+          - title: 源码
+            link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+          - title: 更新日志
+            link: /update/
+      - title: 导航
+        links:
+          - title: 即刻短文
+            link: /essay/
+          - title: 友链文章
+            link: /fcircle/
+          - title: 留言板
+            link: /comments/
+      - title: 协议
+        links:
+          - title: 隐私协议
+            link: /privacy/
+          - title: Cookies
+            link: /cookies/
+          - title: 版权协议
+            link: /copyright/
+```
+
+| 参数                        | 解释                                       |
+| --------------------------- | ------------------------------------------|
+| centerImg                   | 页脚社交头像                               |
+| randomFriends               | 随机友链数量                               |
+
 ## 侧边栏设置 (aside)
 
 可自行决定哪个项目需要显示，可决定位置，也可以设置不显示侧边栏。
