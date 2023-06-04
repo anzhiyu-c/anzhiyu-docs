@@ -69,8 +69,7 @@ footer:
 
 ![页脚你好自动定义文字](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/64412cb6bbbf5.png!blogimg)
 
-
-`socialBar`和`list`是用于展示你的社交按钮及站内部分导航，它位于页面的底部。
+`socialBar`和`list`用于展示你的社交按钮及站内部分导航，它位于页面的底部。
 
 ```yaml
   socialBar:
