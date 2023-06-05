@@ -361,15 +361,6 @@ menu:
     #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 ```
 
-主题配置文件中开启`essay.enable`，自行设置顶部模块背景，注意缩进！！！
-
-```yml
-# 即刻页面配置
-essay:
-  enable: true
-  top_background:
-```
-
 ::: warning 警告
 示例数据中的图片不保证可用性，请自行更换为您自己的图床链接。图床相关知识=>[我的图床方案](https://anzhiy.cn/posts/2785.html)
 :::
