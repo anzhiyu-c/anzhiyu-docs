@@ -131,6 +131,16 @@ reward:
 
 2. 使用多吉云的云存储+免费 cdn，云存储必须是付费版本的，1000 张图片 1G 以内大概在 1 块钱 1 年。cdn 免费每月 20G
 
+如果你的图片能够像
+
+`https://img02.anzhiy.cn/adminuploads/1/2023/02/16/63ee48ddd4d13.png!cover?imageAve`在图片后面加上`?imageAve`即可获得RGB主色调，那就证明成功了，然后在文章中cover使用`https://img02.anzhiy.cn/adminuploads/1/2023/02/16/63ee48ddd4d13.png!cover`即可，不需要加上`?imageAve`因为主题会自行请求获取主色调来渲染。
+
+配置文件中有两个字段控制主色调
+
+| 参数   | 解释                                                             |
+| ------ | ---------------------------------------------------------------- |
+| theme_color.cover_change | 用于控制整篇文章跟随主色调变化                  |
+| post_meta.post.mainTone  | 控制文章顶部info跟随主色调变化 |
 ## 双栏
 
 如果你需要像我一样首页双栏，修改主题配置文件`_config.anzhiyu.yml`（主题版本需要 1.1.1 以及以上）
