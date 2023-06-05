@@ -280,7 +280,14 @@ top_img: false
 5. 添加数据，新建文件`[blog]\source\_data\essay.yml`,没有`_data`文件夹的话也请自己新建。以下是默认格式示例，打开`[blog]\source\_data\essay.yml`，输入：
 
 ```yml
-- class_name: 即刻短文
+- title: 即刻短文
+  subTitle: 咸鱼的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://img02.anzhiy.cn/adminuploads/1/2022/08/21/630249e2df20f.jpg
   essay_list:
     - content: 音乐支持了参数设置自定义歌单
       date: 2023/01/02
