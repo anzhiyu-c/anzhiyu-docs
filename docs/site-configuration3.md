@@ -85,7 +85,7 @@ footer:
 
 ## 如何配置首页顶部右侧不使用轮播图
 
-![效果预览](https://img02.anzhiy.cn/adminuploads/1/2023/03/27/642172c889a45.png)
+![效果预览](https://img02.anheyu.com/adminuploads/1/2023/03/27/642172c889a45.png)
 
 将主题配置文件中`home_top.swiper.enable` 修改为 `false` 即可.
 
@@ -133,7 +133,7 @@ reward:
 
 如果你的图片能够像
 
-`https://img02.anzhiy.cn/adminuploads/1/2023/02/16/63ee48ddd4d13.png!cover?imageAve`在图片后面加上`?imageAve`即可获得RGB主色调，那就证明成功了，然后在文章中cover使用`https://img02.anzhiy.cn/adminuploads/1/2023/02/16/63ee48ddd4d13.png!cover`即可，不需要加上`?imageAve`因为主题会自行请求获取主色调来渲染。
+`https://img02.anheyu.com/adminuploads/1/2023/02/16/63ee48ddd4d13.png!cover?imageAve`在图片后面加上`?imageAve`即可获得RGB主色调，那就证明成功了，然后在文章中cover使用`https://img02.anheyu.com/adminuploads/1/2023/02/16/63ee48ddd4d13.png!cover`即可，不需要加上`?imageAve`因为主题会自行请求获取主色调来渲染。
 
 配置文件中有两个字段控制主色调
 
@@ -279,7 +279,7 @@ nav_music:
 
 此时可以看到首页顶部已经有技能点的轮播了。
 
-![技能点轮播](https://img02.anzhiy.cn/adminuploads/1/2023/03/26/641fe7b5c77c3.webp)
+![技能点轮播](https://img02.anheyu.com/adminuploads/1/2023/03/26/641fe7b5c77c3.webp)
 
 文字部分在主题配置文件中`home_top`配置项修改
 
@@ -297,10 +297,10 @@ nav:
           icon: https://index.anzhiy.cn/assets/home.svg
         - name: 博客
           link: https://anzhiy.cn/
-          icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/05/6315ec9737ac4.png
+          icon: https://img02.anheyu.com/adminuploads/1/2022/09/05/6315ec9737ac4.png
         - name: 云盘主页
           link: https://www.cloud.anzhiy.cn/
-          icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+          icon: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
         - name: 安知鱼图床
           link: https://image.anzhiy.cn/
           icon: https://image.anzhiy.cn/favicon.ico
@@ -311,7 +311,7 @@ nav:
       item:
         - name: 安知鱼云盘
           link: https://cloud.anzhiy.cn/
-          icon: https://img02.anzhiy.cn/adminuploads/1/2022/04/27/6268e7d9de532.png
+          icon: https://img02.anheyu.com/adminuploads/1/2022/04/27/6268e7d9de532.png
 ```
 
 ## 字数统计

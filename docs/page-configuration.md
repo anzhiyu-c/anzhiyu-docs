@@ -164,8 +164,8 @@ top_img: false
 | orderby  | 【可选】排序方式 ：random/name/length                            |
 | order    | 【可选】排序次序： 1, asc for ascending; -1, desc for descending |
 
-![标签页详情](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/6432634045c13.png!blogimg)
-![标签页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/6432637cecf77.png!blogimg)
+![标签页详情](https://img02.anheyu.com/adminuploads/1/2023/04/09/6432634045c13.png!blogimg)
+![标签页](https://img02.anheyu.com/adminuploads/1/2023/04/09/6432637cecf77.png!blogimg)
 
 ## 分类页
 
@@ -219,21 +219,21 @@ top_img: false
 <div id="lib-cards" class="container">
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/前端开发/")'>
-<card data-image="https://img02.anzhiy.cn/adminuploads/1/2022/09/05/6315e144528fb.webp">
+<card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e144528fb.webp">
 <h1 slot="header">前端</h1>
 <p slot="content">前端学习之路。</p>
 </card>
 </a>
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/大学生涯/")'>
-  <card data-image="https://img02.anzhiy.cn/adminuploads/1/2022/09/05/6315e1433f197.webp">
+  <card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e1433f197.webp">
     <h1 slot="header">大学生活</h1>
     <p slot="content">在大学期间发生的一些事儿。</p>
   </card>
 </a>
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/生活日常/")'>
-  <card data-image="https://img02.anzhiy.cn/adminuploads/1/2022/09/05/6315e142a69a9.webp">
+  <card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e142a69a9.webp">
     <h1 slot="header">生活</h1>
     <p slot="content">和好朋友👬们一起经历的有趣事。</p>
   </card>
@@ -249,7 +249,7 @@ top_img: false
 
 :::
 
-![分类页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/643263a321142.png!blogimg)
+![分类页](https://img02.anheyu.com/adminuploads/1/2023/04/09/643263a321142.png!blogimg)
 
 ## 首页即刻说说页面配置
 
@@ -287,7 +287,7 @@ top_img: false
   buttonLink: /about/
   limit: 30
   home_essay: true
-  top_background: https://img02.anzhiy.cn/adminuploads/1/2022/08/21/630249e2df20f.jpg
+  top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
   essay_list:
     - content: 音乐支持了参数设置自定义歌单
       date: 2023/01/02
@@ -365,7 +365,7 @@ menu:
 示例数据中的图片不保证可用性，请自行更换为您自己的图床链接。图床相关知识=>[我的图床方案](https://anzhiy.cn/posts/2785.html)
 :::
 
-![即刻说说页面](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/643263bdd2aa4.png!blogimg)
+![即刻说说页面](https://img02.anheyu.com/adminuploads/1/2023/04/09/643263bdd2aa4.png!blogimg)
 
 ## 友情链接配置
 
@@ -403,7 +403,7 @@ menu:
       descr: 快速、简单且强大的网站框架
     - name: anzhiyu主题
       link: https://anzhiy.cn/
-      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      avatar: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
 
@@ -413,7 +413,7 @@ menu:
     - name: 安知鱼
       hundredSuffix: ""
       link: https://anzhiy.cn/
-      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      avatar: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
 
@@ -424,7 +424,7 @@ menu:
     - name: 安知鱼
       hundredSuffix: ""
       link: https://anzhiy.cn/
-      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      avatar: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
 ```
 
@@ -462,7 +462,7 @@ menu:
     #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 ```
 
-![友情链接页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/6432641611b97.png!blogimg)
+![友情链接页](https://img02.anheyu.com/adminuploads/1/2023/04/09/6432641611b97.png!blogimg)
 
 ## 关于页面配置
 
@@ -543,16 +543,16 @@ menu:
     title: 无限进步
     item:
       - EDU,软件工程专业
-    img: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330e9bcc39cc.png
+    img: https://img02.anheyu.com/adminuploads/1/2022/09/26/6330e9bcc39cc.png
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://img02.anzhiy.cn/adminuploads/1/2022/09/23/632d634f8376d.jpg
+    cover: https://img02.anheyu.com/adminuploads/1/2022/09/23/632d634f8376d.jpg
   map:
     title: 我现在住在
     StrengthenTitle: 中国，长沙市
-    background: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632e6f48981d8.jpg
-    backgroundDark: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ebf1f3e65.jpg
+    background: https://img02.anheyu.com/adminuploads/1/2022/09/24/632e6f48981d8.jpg
+    backgroundDark: https://img02.anheyu.com/adminuploads/1/2022/09/26/6330ebf1f3e65.jpg
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2002
@@ -563,7 +563,7 @@ menu:
   personalities:
     author_name: 执政官
     personality_type: ESFJ-A
-    photo_url: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632e9643611ec.jpg
+    photo_url: https://img02.anheyu.com/adminuploads/1/2022/09/24/632e9643611ec.jpg
     personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
     name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
@@ -578,30 +578,30 @@ menu:
     game_tips: 爱好游戏
     game_title: 原神
     game_uid: "UID: 125766904"
-    game_bg: https://img02.anzhiy.cn/adminuploads/1/2022/12/19/63a079ca63c8a.webp
+    game_bg: https://img02.anheyu.com/adminuploads/1/2022/12/19/63a079ca63c8a.webp
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
       - name: 约定的梦幻岛
         href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/63988658aa1b1.webp
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/63988658aa1b1.webp
       - name: 咒术回战
         href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/6398864e572ed.webp
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/6398864e572ed.webp
       - name: 紫罗兰永恒花园
         href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/639886315d658.webp
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/639886315d658.webp
       - name: 鬼灭之刃
         href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/639886403d472.webp
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/639886403d472.webp
       - name: JOJO的奇妙冒险 黄金之风
         href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anzhiy.cn/adminuploads/1/2022/12/13/6398862649585.webp
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/6398862649585.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632f0dd8f33c6.webp
+    like_bg: https://img02.anheyu.com/adminuploads/1/2022/09/24/632f0dd8f33c6.webp
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
@@ -739,7 +739,7 @@ menu:
 | reward_list.suffix             | string/元     | 【可选】打赏 item 后缀（默认元）                                                                                                                    |
 | extra                          | boolean/false | 【必须】开发字段，表示额外模块内容可通过修改主题`themes/anzhiyu/layout/includes/anzhiyu/about-extra.pug`自行开发，修改为 true 后会引入该 pug 内容。 |
 
-![关于页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/6432643720ef6.png!blogimg)
+![关于页](https://img02.anheyu.com/adminuploads/1/2023/04/09/6432643720ef6.png!blogimg)
 
 ## 配置相册页面
 
@@ -916,15 +916,15 @@ type: "album_detail"
 
 @tab 相册页
 
-![相册页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/64326458a0f01.png!blogimg)
+![相册页](https://img02.anheyu.com/adminuploads/1/2023/04/09/64326458a0f01.png!blogimg)
 
 @tab 相册页 type: 1 样式
 
-![相册页](https://img02.anzhiy.cn/adminuploads/1/2023/04/19/643f4351c8245.webp!blogimg)
+![相册页](https://img02.anheyu.com/adminuploads/1/2023/04/19/643f4351c8245.webp!blogimg)
 
 @tab 相册页 type: 2 样式
 
-![相册页](https://img02.anzhiy.cn/adminuploads/1/2023/04/19/643f42162d2f4.webp!blogimg)
+![相册页](https://img02.anheyu.com/adminuploads/1/2023/04/19/643f42162d2f4.webp!blogimg)
 
 :::
 
@@ -1009,7 +1009,7 @@ friends_vue:
   enable: true
   vue_js: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/js/friends_vue/index.js
   apiurl: https://friends.anzhiy.cn/ # 朋友圈后端地址
-  top_background: https://img02.anzhiy.cn/adminuploads/1/2022/08/21/630249e2df20f.jpg
+  top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
 ```
 
 其中`vue_js`参数，可以将`https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/js/friends_vue/index.js`中的
@@ -1043,7 +1043,7 @@ menu:
     #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 ```
 
-![朋友圈页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/64326468190c2.png!blogimg)
+![朋友圈页](https://img02.anheyu.com/adminuploads/1/2023/04/09/64326468190c2.png!blogimg)
 
 ## 音乐馆页配置
 
@@ -1245,7 +1245,7 @@ menu:
 
 将`menu`中音乐馆的路径修改为以下格式即可`/music/?id=1708664797&server=tencent`，支持`id`和`server`参数。
 
-![音乐馆页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/643264b4da332.png!blogimg)
+![音乐馆页](https://img02.anheyu.com/adminuploads/1/2023/04/09/643264b4da332.png!blogimg)
 
 ## 404 页面
 
@@ -1264,7 +1264,7 @@ error_404:
   background:
 ```
 
-![404页面](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/64326263a9eda.png!blogimg)
+![404页面](https://img02.anheyu.com/adminuploads/1/2023/04/09/64326263a9eda.png!blogimg)
 
 ## 追番页面
 
@@ -1305,7 +1305,7 @@ bangumi: # 追番设置
       enable: false
 ```
 
-![追番页](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/643264bec3298.png!blogimg)
+![追番页](https://img02.anheyu.com/adminuploads/1/2023/04/09/643264bec3298.png!blogimg)
 
 ## 留言板页面
 
@@ -1342,4 +1342,4 @@ envelope_comment:
     type: envelope
 ```
 
-![留言板](https://img02.anzhiy.cn/adminuploads/1/2023/04/09/643264eb13666.png!blogimg)
+![留言板](https://img02.anheyu.com/adminuploads/1/2023/04/09/643264eb13666.png!blogimg)

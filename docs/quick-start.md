@@ -90,7 +90,7 @@ hexo s
 
 此时就能在看到效果了。
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/03/31/642677a150e9d.png)
+![](https://img02.anheyu.com/adminuploads/1/2023/03/31/642677a150e9d.png)
 
 ## 有问题?
 
@@ -101,7 +101,7 @@ hexo s
 群号：`464636182`
 
 <div>
-<img height="300" alt="交流群464636182" src="https://img02.anzhiy.cn/adminuploads/1/2023/04/14/6438b945e1834.webp" />
+<img height="300" alt="交流群464636182" src="https://img02.anheyu.com/adminuploads/1/2023/04/14/6438b945e1834.webp" />
 </div>
 
 ## 技术支持

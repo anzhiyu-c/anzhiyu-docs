@@ -65,9 +65,9 @@ footer:
 | bdageitem.shields           | 徽标配置徽标                               |
 | bdageitem.message           | 徽标配置徽标 title                         |
 
-![页脚](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/64412c4c08266.png!blogimg)
+![页脚](https://img02.anheyu.com/adminuploads/1/2023/04/20/64412c4c08266.png!blogimg)
 
-![页脚你好自动定义文字](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/64412cb6bbbf5.png!blogimg)
+![页脚你好自动定义文字](https://img02.anheyu.com/adminuploads/1/2023/04/20/64412cb6bbbf5.png!blogimg)
 
 `socialBar`和`list`用于展示你的社交按钮及站内部分导航，它位于页面的底部。
 
@@ -172,8 +172,8 @@ aside:
     content: 欢迎来看我的博客鸭~
   card_weixin:
     enable: true
-    face: https://img02.anzhiy.cn/adminuploads/1/2022/09/11/631ddb7c9b250.png
-    backFace: https://img02.anzhiy.cn/adminuploads/1/2022/09/11/631ddeb0900b7.png
+    face: https://img02.anheyu.com/adminuploads/1/2022/09/11/631ddb7c9b250.png
+    backFace: https://img02.anheyu.com/adminuploads/1/2022/09/11/631ddeb0900b7.png
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -224,9 +224,9 @@ CDN:
   	busuanzi: xxxxxxxxx
 ```
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/6441312192cba.png)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/20/6441312192cba.png)
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/6441312d5e8d0.webp!blogimg)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/20/6441312d5e8d0.webp!blogimg)
 
 ## 运行时间
 
@@ -242,7 +242,7 @@ runtimeshow:
   publish_date: 4/1/2021 00:00:00
 ```
 
-![运行时间](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/6441319e80977.webp)
+![运行时间](https://img02.anheyu.com/adminuploads/1/2023/04/20/6441319e80977.webp)
 
 ## 最新评论
 
@@ -270,7 +270,7 @@ newest_comments:
 | storage | 设置缓存时间，单位 分钟 |
 | avatar  | 是否显示头像            |
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/644132e885d91.webp!blogimg)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/20/644132e885d91.webp!blogimg)
 
 ## 右下角按钮 (Bottom right button)
 
@@ -299,11 +299,11 @@ translate:
 
 > 简体
 
-![简体](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/644133ef810f7.webp)
+![简体](https://img02.anheyu.com/adminuploads/1/2023/04/20/644133ef810f7.webp)
 
 > 繁体
 
-![繁体](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/644133ef85f42.webp)
+![繁体](https://img02.anheyu.com/adminuploads/1/2023/04/20/644133ef85f42.webp)
 
 ### 阅读模式
 
@@ -317,7 +317,7 @@ translate:
 readmode: true
 ```
 
-![阅读模式](https://img02.anzhiy.cn/adminuploads/1/2023/04/20/6441350b98041.webp)
+![阅读模式](https://img02.anheyu.com/adminuploads/1/2023/04/20/6441350b98041.webp)
 
 ### 夜间模式
 

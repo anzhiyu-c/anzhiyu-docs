@@ -25,7 +25,7 @@ description: 安知鱼主题站点基础配置
 
 修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改博客根目录的`_config.yml`，请注意如果需要适配 pjax 必须填写`description`字段，以保证需要重载的 dom 数量一致。
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/05/642cfb7d42a1f.webp)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/05/642cfb7d42a1f.webp)
 
 ## 导航配置
 
@@ -86,7 +86,7 @@ menu:
   About: /about/ || icon-zhifeiji
 ```
 
-![导航菜单相关配置](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433a6d2041e3.png)
+![导航菜单相关配置](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433a6d2041e3.png)
 
 ## 导航栏设置
 
@@ -121,7 +121,7 @@ nav:
 | menu.item.link | nav 左侧项目按钮内的菜单项链接                            |
 | menu.item.icon | nav 左侧项目按钮内的菜单项图标                            |
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433aa002f288.webp)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433aa002f288.webp)
 
 ## 代码块配置
 
@@ -151,27 +151,27 @@ highlight_theme: light
 
 @tab darker
 
-![darker](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433acf03c029.png)
+![darker](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf03c029.png)
 
 @tab pale night
 
-![pale night](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433acf02c312.png)
+![pale night](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf02c312.png)
 
 @tab light
 
-![light](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433acf0382d1.png)
+![light](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf0382d1.png)
 
 @tab ocean
 
-![ocean](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433acf03185f.png)
+![ocean](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf03185f.png)
 
 @tab mac
 
-![mac](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433acf031c0d.png)
+![mac](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf031c0d.png)
 
 @tab mac light
 
-![mac light](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433acf038752.png)
+![mac light](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf038752.png)
 
 :::
 
@@ -183,7 +183,7 @@ highlight_theme: light
 highlight_copy: true
 ```
 
-![代码复制](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433ae3ceca9b.png)
+![代码复制](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433ae3ceca9b.png)
 
 ### 代码框展开/关闭
 
@@ -210,11 +210,11 @@ highlight_shrink: true #代码框不展开，需点击 '>' 打开
 :::
 
 `highlight_shrink: true`
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433b421da871.png!blogimg)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433b421da871.png!blogimg)
 `highlight_shrink: false`
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433b421dea9b.png!blogimg)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433b421dea9b.png!blogimg)
 `highlight_shrink: none`
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433b421df10e.png!blogimg)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433b421df10e.png!blogimg)
 
 ### 代码换行
 
@@ -248,11 +248,11 @@ prismjs:
 
 > 设置`code_word_wrap`之前:
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433b76aa968f.png!blogimg)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433b76aa968f.png!blogimg)
 
 > 设置`code_word_wrap`之后:
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433b76aa955d.png!blogimg)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433b76aa955d.png!blogimg)
 
 ### 代码高度限制
 
@@ -331,7 +331,7 @@ icons:
 
 | 配置             | 解释                                                                                                    |
 | ---------------- | ------------------------------------------------------------------------------------------------------- |
-| index_img        | 主页的 top_img，示例值: index_img: "background: url(https://img02.anzhiy.cn/xxx) top / cover no-repeat" |
+| index_img        | 主页的 top_img，示例值: index_img: "background: url(https://img02.anheyu.com/xxx) top / cover no-repeat" |
 | default_top_img  | 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img                                     |
 | archive_img      | 归档页面的 top_img                                                                                      |
 | tag_img          | tag 子页面 的 默认 top_img                                                                              |
@@ -409,7 +409,7 @@ default_cover:
   - https://file.crazywong.com/gh/jerryc127/CDN@latest/cover/default_bg3.png
 ```
 
-![](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433ddeabbae4.webp!blogimg)
+![](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433ddeabbae4.webp!blogimg)
 
 ## 文章 meta 显示
 
@@ -437,11 +437,11 @@ post_meta:
 
 @tab 主页
 
-![主页](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433ede80d024.webp)
+![主页](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433ede80d024.webp)
 
 @tab 文章页
 
-![文章页](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433ede8166d0.png)
+![文章页](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433ede8166d0.png)
 
 :::
 
@@ -451,11 +451,11 @@ post_meta:
 
 @tab 相对时间
 
-![相对时间](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433eeb22fcca.webp!blogimg)
+![相对时间](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433eeb22fcca.webp!blogimg)
 
 @tab 明确时间
 
-![明确时间](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433eeb22fd0f.webp!blogimg)
+![明确时间](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433eeb22fd0f.webp!blogimg)
 
 :::
 
@@ -493,7 +493,7 @@ copyright_info: 此文章版权归xxxxx所有，如有转载，请注明来自�
 
 **版权显示截图**
 
-![版权显示截图](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433efcd40633.png!blogimg)
+![版权显示截图](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433efcd40633.png!blogimg)
 
 ## 文章打赏
 
@@ -518,7 +518,7 @@ reward:
       text: alipay
 ```
 
-![文章打赏截图](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f0b4b8693.png)
+![文章打赏截图](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f0b4b8693.png)
 
 ## TOC
 
@@ -545,15 +545,15 @@ toc:
 
 @tab Toc PC
 
-![Toc PC](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f2bea649b.png!blogimg)
+![Toc PC](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f2bea649b.png!blogimg)
 
 @tab Toc Mobile
 
-![Toc Mobile](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f2be9811f.png!blogimg)
+![Toc Mobile](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f2be9811f.png!blogimg)
 
 @tab style_simple: true
 
-![style_simple: true](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f2beaa447.png!blogimg)
+![style_simple: true](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f2beaa447.png!blogimg)
 
 :::
 
@@ -580,7 +580,7 @@ related_post:
   date_type: created # or created or updated 文章日期显示创建日或者更新日
 ```
 
-![相关文章截图](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f4e1be3af.webp!blogimg)
+![相关文章截图](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f4e1be3af.webp!blogimg)
 
 ## 文章过期提醒
 
@@ -607,11 +607,11 @@ noticeOutdate:
 
 @tab style: flat
 
-![style: flat](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f770b38e8.webp!blogimg)
+![style: flat](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f770b38e8.webp!blogimg)
 
 @tab style: simple
 
-![style: simple](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f770b2017.webp!blogimg)
+![style: simple](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f770b2017.webp!blogimg)
 
 :::
 
@@ -629,7 +629,7 @@ post_edit:
   url:
 ```
 
-![文章编辑按钮截图](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f83e60756.webp)
+![文章编辑按钮截图](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f83e60756.webp)
 
 ## 文章分页按钮
 
@@ -654,4 +654,4 @@ post_pagination: false
 |   post_pagination: 1   | 下一篇显示的是旧文章 |
 |   post_pagination: 2   | 下一篇显示的是新文章 |
 
-![文章分页截图](https://img02.anzhiy.cn/adminuploads/1/2023/04/10/6433f8f0876ae.webp)
+![文章分页截图](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433f8f0876ae.webp)
