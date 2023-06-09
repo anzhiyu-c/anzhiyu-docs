@@ -291,7 +291,7 @@ top_img: false
   essay_list:
     - content: 音乐支持了参数设置自定义歌单
       date: 2023/01/02
-      link: https://anzhiy.cn/music/?id=7269231710&server=tencent
+      link: https://blog.anheyu.com/music/?id=7269231710&server=tencent
     - content: 关于页的打赏仿了b站的充电功能，使用svg绘图➕一些动画参数移动，应该不会被b站警告吧😜，另外文章也支持了顶部随机b站同款春秋冬banner。
       date: 2022/12/18
     - content: React中不能直接修改state的一个重要原因是在性能优化时的prueComponment会进行浅层比较会认为是用一个对象且不能进入队列中批量更新
@@ -304,10 +304,10 @@ top_img: false
       date: 2022/11/13
     - content: 朋友圈船新版本终于写完了, 耶✌️
       date: 2022/11/05
-      link: https://anzhiy.cn/album/
+      link: https://blog.anheyu.com/album/
     - content: 终于把相册集搞定了, 耶✌️, 瀑布流在滑动滚动条一个视口范围上下100的情况执行一次, 到底部停止监听让性能高了好多，再也不会布局混乱🤪了
       date: 2022/10/25
-      link: https://anzhiy.cn/album/
+      link: https://blog.anheyu.com/album/
     - content: 搜索🔍支持缩略图显示啦（默认获取文章内容的第一张图片）
       date: 2022/10/23 08:00:00
       from: 安知鱼
@@ -362,7 +362,7 @@ menu:
 ```
 
 ::: warning 警告
-示例数据中的图片不保证可用性，请自行更换为您自己的图床链接。图床相关知识=>[我的图床方案](https://anzhiy.cn/posts/2785.html)
+示例数据中的图片不保证可用性，请自行更换为您自己的图床链接。图床相关知识=>[我的图床方案](https://blog.anheyu.com/posts/2785.html)
 :::
 
 ![即刻说说页面](https://img02.anheyu.com/adminuploads/1/2023/04/09/643263bdd2aa4.png!blogimg)
@@ -402,7 +402,7 @@ menu:
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: 快速、简单且强大的网站框架
     - name: anzhiyu主题
-      link: https://anzhiy.cn/
+      link: https://blog.anheyu.com/
       avatar: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
@@ -412,7 +412,7 @@ menu:
   link_list:
     - name: 安知鱼
       hundredSuffix: ""
-      link: https://anzhiy.cn/
+      link: https://blog.anheyu.com/
       avatar: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
@@ -423,7 +423,7 @@ menu:
   link_list:
     - name: 安知鱼
       hundredSuffix: ""
-      link: https://anzhiy.cn/
+      link: https://blog.anheyu.com
       avatar: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
       descr: 生活明朗，万物可爱
 ```
@@ -1008,14 +1008,14 @@ friends_vue:
 friends_vue:
   enable: true
   vue_js: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/js/friends_vue/index.js
-  apiurl: https://friends.anzhiy.cn/ # 朋友圈后端地址
+  apiurl: https://friends.anheyu.com/ # 朋友圈后端地址
   top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
 ```
 
 其中`vue_js`参数，可以将`https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/js/friends_vue/index.js`中的
-`friends.anzhiy.cn`替换为您的后端 url 然后使用
+`friends.anheyu.com`替换为您的后端 url 然后使用
 
-前端项目地址：[hexo-circle-of-friends-front](https://github.com/anzhiyu-c/hexo-circle-of-friends-front/)，也可以自行下载项目后，修改代码中的 url 变量路径`friends.anzhiy.cn`为你自己的，然后执行`npm run build`构建使用，
+前端项目地址：[hexo-circle-of-friends-front](https://github.com/anzhiyu-c/hexo-circle-of-friends-front/)，也可以自行下载项目后，修改代码中的 url 变量路径`friends.anheyu.com`为你自己的，然后执行`npm run build`构建使用，
 
 主题配置文件中开启`menu`中友链和朋友圈的注释，注意缩进！！！
 

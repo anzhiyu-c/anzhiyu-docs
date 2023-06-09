@@ -17,7 +17,7 @@ description: 安知鱼主题站点基础配置
 
 机器人中回复：/chat 你的 key 你的博客地址注意保留最后的斜杠(即为 Referer)
 
-例如：/chat tN2jLmG7fX9zHk5dVbQr https://anzhiy.cn/
+例如：/chat tN2jLmG7fX9zHk5dVbQr https://blog.anheyu.com/
 
 格式发送，返回的 token 即你的剩余字数
 
@@ -160,7 +160,7 @@ home_top:
   timemode: date #date/updated
   title: 生活明朗
   subTitle: 万物可爱。
-  siteText: ANZHIY.CN
+  siteText: ANHEYU.COM
   category:
     - name: 前端
       path: /categories/前端开发/
@@ -179,7 +179,7 @@ home_top:
       icon: anzhiyu-icon-book
 ```
 
-1. 首先你需要有`categories`，需配置过分类页面，具体可参考[分类页创建](https://anzhiy.cn/docs/page-configuration.html#%E5%88%86%E7%B1%BB%E9%A1%B5)
+1. 首先你需要有`categories`，需配置过分类页面，具体可参考[分类页创建](https://blog.anheyu.com/docs/page-configuration.html#%E5%88%86%E7%B1%BB%E9%A1%B5)
 
 ```bash
 hexo new page categories
@@ -204,7 +204,7 @@ categories: 前端开发
 | path  | 跳转的路径 |
 | shadow  | 阴影的颜色 |
 | class  | 类名 |
-| icon  | 图标名，默认使用内置阿里图标参考: [图标配置](https://anzhiy.cn/docs/site-configuration1.html#%E5%9B%BE%E6%A0%87%E9%85%8D%E7%BD%AE) |
+| icon  | 图标名，默认使用内置阿里图标参考: [图标配置](https://blog.anheyu.com/docs/site-configuration1.html#%E5%9B%BE%E6%A0%87%E9%85%8D%E7%BD%AE) |
 
 ## 左下角歌单
 
@@ -293,25 +293,19 @@ nav:
     - title: 网页
       item:
         - name: 个人主页
-          link: https://index.anzhiy.cn/
-          icon: https://index.anzhiy.cn/assets/home.svg
+          link: https://index.anheyu.com/
+          icon: https://index.anheyu.com/assets/home.svg
         - name: 博客
-          link: https://anzhiy.cn/
+          link: https://blog.anheyu.com/
           icon: https://img02.anheyu.com/adminuploads/1/2022/09/05/6315ec9737ac4.png
-        - name: 云盘主页
-          link: https://www.cloud.anzhiy.cn/
-          icon: https://img02.anheyu.com/adminuploads/1/2022/09/15/63232b7d91d22.jpg
         - name: 安知鱼图床
-          link: https://image.anzhiy.cn/
-          icon: https://image.anzhiy.cn/favicon.ico
-        - name: alist文件管理
-          link: https://pan.anzhiy.cn/
-          icon: https://cloud.anzhiy.cn/static/img/c192.png
+          link: https://image.anheyu.com/
+          icon: https://image.anheyu.com/favicon.ico
     - title: 项目
       item:
-        - name: 安知鱼云盘
-          link: https://cloud.anzhiy.cn/
-          icon: https://img02.anheyu.com/adminuploads/1/2022/04/27/6268e7d9de532.png
+        - name: 安知鱼图床
+          link: https://image.anheyu.com/
+          icon: https://image.anheyu.com/favicon.ico
 ```
 
 ## 字数统计

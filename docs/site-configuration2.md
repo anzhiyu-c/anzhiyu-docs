@@ -34,8 +34,8 @@ footer:
     - link: https://hexo.io/ #徽标指向网站链接
       shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
       message: 博客框架为Hexo_v5.4.0 #徽标提示语
-    - link: https://anzhiy.cn/
-      shields: https://pan.anzhiy.cn/d/anzhiyu/svg/Theme-AnZhiYu-2E67D3.svg
+    - link: https://anheyu.com/
+      shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
       message: 本站使用AnZhiYu主题
     - link: https://www.dogecloud.com/
       shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
@@ -372,7 +372,7 @@ rightside_item_order:
 标签外挂虽然能为主题带来一些额外的功能和 UI 方面的强化，但是，标签外挂也有明显的限制，使用时请留意。
 :::
 
-只需要将标签写在md文件内即可使用，详细写法请阅读[安知鱼主题标签 Tag Plugins](https://anzhiy.cn/posts/d50a.html)
+只需要将标签写在md文件内即可使用，详细写法请阅读[安知鱼主题标签 Tag Plugins](https://blog.anheyu.com/posts/d50a.html)
 
 ## 分析统计
 

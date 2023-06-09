@@ -100,13 +100,13 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://anzhiy.cn/
+          link: https://blog.anheyu.com/
           icon: /img/favicon.png
     - title: 项目
       item:
         - name: 安知鱼图床
-          link: https://image.anzhiy.cn/
-          icon: https://image.anzhiy.cn/favicon.ico
+          link: https://image.anheyu.com/
+          icon: https://image.anheyu.com/favicon.ico
 ```
 
 | 参数           | 解释                                                      |
