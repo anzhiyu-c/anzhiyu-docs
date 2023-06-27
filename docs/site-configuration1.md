@@ -272,11 +272,11 @@ highlight_height_limit: false # unit: px
 
 ## 图标配置
 
-AnZhiYu 支持 [阿里图标](https://www.iconfont.cn/collections/detail?cid=44481) (需配置自己的图标)，与 [font-awesome v6](https://fontawesome.com/icons?from=io) 图标(需开启`fontawesome`)，使用阿里图标需配置主题配置文件中`iconfont`字段，默认内置部分图标，修改主题配置文件，视频教程: [安知鱼主题社交图标配置](https://www.bilibili.com/video/BV1Cv4y1n7FW/?spm_id_from=333.999.0.0&vd_source=4d9717102296e4b7a60ecdfad55ae2dd)
+AnZhiYu 支持 [阿里图标](https://www.iconfont.cn/collections/detail?cid=44481) (需配置自己的图标)，与 [font-awesome v6](https://fontawesome.com/icons?from=io) 图标(需开启`fontawesome`)，使用阿里图标需配置主题配置文件中`icon.ali_iconfont_js`字段，默认内置部分图标，修改主题配置文件，视频教程: [安知鱼主题社交图标配置](https://www.bilibili.com/video/BV1Cv4y1n7FW/?spm_id_from=333.999.0.0&vd_source=4d9717102296e4b7a60ecdfad55ae2dd)
 
 ```yaml
 icons:
-  ali_iconfont: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用，使用icon开头即可svg引入
+  ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
   fontawesome: false #是否启用fontawesome6图标
   fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 ```
@@ -303,9 +303,9 @@ social:
 
 ```yaml
 icons:
-  ali_iconfont: # 阿里图标链接，主题会进行加载
-  fontawesome: true #是否启用fontawesome6图标
-  fontawesome_animation_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css #fontawesome_animation 如果有就会加载
+  ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
+  fontawesome: false #是否启用fontawesome6图标
+  fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 ```
 
 ## 顶部图
