@@ -13,12 +13,18 @@ description: 安知鱼主题站点基础配置
 
 需主题版本大于 `1.1.6 版本`
 
-修改主题配置文件，其中`key`和`Referer` 为 `tianli gpt` 的`key`和`Referer`，可在 [爱发电](https://afdian.net/item/886a79d4db6711eda42a52540025c377) 购买 key，购买完成后添加机器人 QQ：`2102916311`
+修改主题配置文件，其中`key`和`Referer` 为 `tianli gpt` 的`key`和`Referer`，可在 [爱发电](https://afdian.net/item/886a79d4db6711eda42a52540025c377) 购买 key，购买完成后请立即在[前端面板](https://summary.tianli0.top/)绑定`key`，以防止被盗用。
 
-机器人中回复：/chat 你的 key 你的博客地址注意保留最后的斜杠(即为 Referer)
+适用于AnZhiYu主题项目的Key，前端管理面板 https://summary.tianli0.top/
 
-例如：/chat tN2jLmG7fX9zHk5dVbQr https://blog.anheyu.com/
+每个key限制请求字数50000字，如果是已经请求过的内容不会再次消耗key
 
+使用时需要绑定key。 
+虚拟物品一经发出不支持退款。
+
+关于续费：
+
+续费和绑定流程相同，绑定成功后会自动充值到原有的key上，也就是说无需更改网页中的key参数，直接绑定即可。
 格式发送，返回的 token 即你的剩余字数
 
 ```yaml
