@@ -287,7 +287,7 @@ top_img: false
   buttonLink: /about/
   limit: 30
   home_essay: true
-  top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
+  top_background: https://bu.dusays.com/2023/06/15/648af1d5e6f39.jpeg
   essay_list:
     - content: 音乐支持了参数设置自定义歌单
       date: 2023/01/02
@@ -543,16 +543,16 @@ menu:
     title: 无限进步
     item:
       - EDU,软件工程专业
-    img: https://img02.anheyu.com/adminuploads/1/2022/09/26/6330e9bcc39cc.png
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://img02.anheyu.com/adminuploads/1/2022/09/23/632d634f8376d.jpg
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
   map:
     title: 我现在住在
     StrengthenTitle: 中国，长沙市
-    background: https://img02.anheyu.com/adminuploads/1/2022/09/24/632e6f48981d8.jpg
-    backgroundDark: https://img02.anheyu.com/adminuploads/1/2022/09/26/6330ebf1f3e65.jpg
+    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
+    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2002
@@ -563,7 +563,7 @@ menu:
   personalities:
     author_name: 执政官
     personality_type: ESFJ-A
-    photo_url: https://img02.anheyu.com/adminuploads/1/2022/09/24/632e9643611ec.jpg
+    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
     personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
     name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
@@ -578,30 +578,30 @@ menu:
     game_tips: 爱好游戏
     game_title: 原神
     game_uid: "UID: 125766904"
-    game_bg: https://img02.anheyu.com/adminuploads/1/2022/12/19/63a079ca63c8a.webp
+    game_bg: https://bu.dusays.com/2023/04/22/64433bf26e25d.webp
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
       - name: 约定的梦幻岛
         href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/63988658aa1b1.webp
+        cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
       - name: 咒术回战
         href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/6398864e572ed.webp
+        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
       - name: 紫罗兰永恒花园
         href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/639886315d658.webp
+        cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
       - name: 鬼灭之刃
         href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/639886403d472.webp
+        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
       - name: JOJO的奇妙冒险 黄金之风
         href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/6398862649585.webp
+        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://img02.anheyu.com/adminuploads/1/2022/09/24/632f0dd8f33c6.webp
+    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
