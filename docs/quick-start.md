@@ -1,6 +1,6 @@
 ::: warning 警告
-本教程更新于 2023 年 5 月 22 日，教程的内容针对最新的 anzhiyu 主题(如果你是旧版本，教程会有出入，请留意)
-🐟 安知鱼 已经更新到 [1.2.1](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/releases/tag/1.2.1)
+本教程更新于 2023 年 7 月 5 日，教程的内容针对最新的 anzhiyu 主题(如果你是旧版本，教程会有出入，请留意)
+🐟 安知鱼 已经更新到 [1.4.0](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/releases/tag/1.4.0)
 :::
 
 ## 💻 安裝
