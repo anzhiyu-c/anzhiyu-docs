@@ -374,6 +374,21 @@ waline:
 
 开启 pageview 后，文章页的访问人数将改为 Waline 提供，而不是 不蒜子
 
+@tab Artalk
+Artalk - 一款轻量、安全、易上手的自托管评论系统
+
+具体配置可参考 [Artalk 文档](https://Artalk.js.org/)
+
+然后修改 主题配置文件:
+
+```yml
+artalk:
+  server: # artalk后端地址
+  site:
+  visitor: false
+  option:
+```
+
 :::
 
 ## 在线聊天
