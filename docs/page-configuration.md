@@ -1050,6 +1050,46 @@ menu:
 
 ![朋友圈页](https://img02.anheyu.com/adminuploads/1/2023/04/09/64326468190c2.png!blogimg)
 
+
+## 便携空调页面配置
+
+> 参考官方文档: (https://anzhiy.cn/posts/d335.html)
+> 项目地址: [https://github.com/anzhiyu-c/air-conditioner-vue](https://github.com/anzhiyu-c/air-conditioner-vue)
+
+
+在 Hexo 博客根目录 `[blog]`下打开终端，执行
+
+```bash
+  hexo new page air-conditioner
+```
+
+打开`[blog]\source\air-conditioner\index.md`，修改内容为：
+
+```md
+---
+title: 便携小空调 - 为你的夏日带去清凉!
+date: 2023-07-13 10:54:17
+comments: true
+aside: false
+top_img: false
+---
+
+> 终于为博客安装上了便携小空调
+
+<style>
+.copyright-box a {
+  border-bottom: none !important;
+  padding: 0 !important;
+}
+</style>
+
+<div id="air-conditioner-vue"></div>
+<script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>
+
+```
+然后访问https://你的博客域名/air-conditioner就可以得到一个没有风的空调 ❄️
+
+
 ## 音乐馆页配置
 
 1. 前往你的 Hexo 博客的根目录
