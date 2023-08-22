@@ -1,20 +1,14 @@
 {
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vitepress": "1.0.0-rc.4",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.61",
-    "@vuepress/plugin-search": "2.0.0-beta.61",
-    "vue": "^3.2.47",
-    "vuepress": "2.0.0-beta.61",
-    "vuepress-plugin-copy-code2": "2.0.0-beta.206"
-  },
-  "name": "anzhiyu-docs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "vuepress-plugin-md-enhance": "2.0.0-beta.206"
+    "@types/node": "^20.5.1"
   }
 }
