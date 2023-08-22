@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速上手
-      link: /quick-start
+      link: /initall
     - theme: alt
       text: 简介
       link: /intro

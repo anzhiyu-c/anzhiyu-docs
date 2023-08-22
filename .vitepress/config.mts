@@ -47,14 +47,31 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '简介',
+        text: '主题简介',
         link: '/intro'
       },
       {
         text: '快速上手',
         items: [
-          { text: '安装💻', link: '/markdown-examples' },
-          { text: '页面配置📦', link: '/api-examples' }
+          { text: '安装主题💻', link: '/initall' },
+        ]
+      },
+      {
+        text: '快速上手',
+        items: [
+          { text: 'front-matter的基本认识', link: '/page/1.front-matter' },
+          { text: '标签页配置', link: '/page/2.tags' },
+          { text: '分类页配置', link: '/page/3.classify' },
+          { text: '首页即刻说说页面配置', link: '/page/4.essay' },
+          { text: '友情链接配置', link: '/page/5.links' },
+          { text: '关于页面配置', link: '/page/6.about' },
+          { text: '相册页面配置', link: '/page/7.album' },
+          { text: '朋友圈页面配置', link: '/page/8.fcircle' },
+          { text: '音乐馆页配置', link: '/page/9.music' },
+          { text: '404页面配置', link: '/page/10.404' },
+          { text: '追番页面配置', link: '/page/11.bilibili' },
+          { text: '留言板页面配置', link: '/page/12.message' },
+          { text: '我的装备页面配置', link: '/page/13.equipment' },
         ]
       }
     ],

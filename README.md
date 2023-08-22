@@ -110,7 +110,7 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 
 主题设计：[@张洪 Heo](https://github.com/zhheo)
 
-文档编写：[@xiaoran](https://github.com/xiaoran)
+文档编写：[@xiaoran](https://github.com/firstdyeing)
 
 ## 仓库统计
 
