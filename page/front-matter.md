@@ -2,7 +2,7 @@
 title: 文章页的基本认识
 ---
 
-# 页面配置
+# 页面配置📦
 ## 🧱 Front-matter 的基本认识
 
 `Front-matter` 是 `markdown` 文件最上方以 `---` 分隔的区域，用于指定个别档案的变数。其中又分为两种 markdown 里

@@ -1,13 +1,12 @@
 ---
 title: 关于页面配置
 ---
-# 页面配置
+# 页面配置📦
 ## 关于页面配置
 
 1. 前往你的 Hexo 博客的根目录
 
 2. 在 Hexo 博客根目录 `[blog]`下打开终端，输入
-
    ```bash
    hexo new page about
    ```
@@ -16,18 +15,17 @@ title: 关于页面配置
 
 4. 修改这个文件：
    记得添加 `type: "about"`
-
-   ```yml 
-     ---
-     title: 关于
-     date: 2021-03-30 15:57:51
-     aside: false
-     top_img: false
-     background: "#f8f9fe"
-     comments: false
-     type: "about"
-     ---
-   ```
+    ```yml 
+    ---
+    title: 关于
+    date: 2021-03-30 15:57:51
+    aside: false
+    top_img: false
+    background: "#f8f9fe"
+    comments: false
+    type: "about"
+    ---
+    ```
 
 5. 主题配置文件中开启`menu`中关于和关于本人的注释，注意缩进！！！
 

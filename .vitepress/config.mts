@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2023-08-22 11:34:10
- * @LastEditTime: 2023-08-23 08:46:48
+ * @LastEditTime: 2023-08-23 12:03:22
  * @LastEditors: 安知鱼
  */
 import { defineConfig } from "vitepress";
@@ -42,25 +42,37 @@ export default defineConfig({
       {
         text: "快速上手",
         items: [
-          { text: "安装主题💻", link: "/initall" },
+          { text: "安装主题 💻", link: "/initall" },
           {
-            text: "页面配置",
+            text: "页面配置 📦",
             collapsed: false,
             items: [
-              { text: "front-matter的基本认识", link: "/page/1.front-matter" },
-              { text: "标签页配置", link: "/page/2.tags" },
-              { text: "分类页配置", link: "/page/3.classify" },
-              { text: "首页即刻说说页面配置", link: "/page/4.essay" },
-              { text: "友情链接配置", link: "/page/5.links" },
-              { text: "关于页面配置", link: "/page/6.about" },
-              { text: "相册页面配置", link: "/page/7.album" },
-              { text: "朋友圈页面配置", link: "/page/8.fcircle" },
-              { text: "音乐馆页配置", link: "/page/9.music" },
-              { text: "404页面配置", link: "/page/10.404" },
-              { text: "追番页面配置", link: "/page/11.bilibili" },
-              { text: "留言板页面配置", link: "/page/12.message" },
-              { text: "我的装备页面配置", link: "/page/13.equipment" },
+              { text: "front-matter的基本认识", link: "/page/front-matter" },
+              { text: "标签页配置", link: "/page/tags" },
+              { text: "分类页配置", link: "/page/classify" },
+              { text: "首页即刻说说页面配置", link: "/page/essay" },
+              { text: "友情链接配置", link: "/page/links" },
+              { text: "关于页面配置", link: "/page/about" },
+              { text: "相册页面配置", link: "/page/album" },
+              { text: "朋友圈页面配置", link: "/page/fcircle" },
+              { text: "音乐馆页配置", link: "/page/music" },
+              { text: "404页面配置", link: "/page/404" },
+              { text: "追番页面配置", link: "/page/bilibili" },
+              { text: "留言板页面配置", link: "/page/message" },
+              { text: "我的装备页面配置", link: "/page/equipment" },
             ],
+          },
+          {
+            text: "全局配置 🧠",
+            collapsed: false,
+            items: [
+              { text: "基础配置", link: "/global/base" },
+              { text: "额外配置", link: "/global/extra" },
+            ],
+          },
+          {
+            text: "进阶配置 🚀",
+            link: "/advanced/",
           },
         ],
       },
@@ -69,9 +81,9 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu" }],
 
     algolia: {
-      appId: "OR6M1E9LZP",
-      apiKey: "e89af783077a17d8ec1e0325aa65b0be",
-      indexName: "anzhiyu",
+      appId: "CITURDDECN",
+      apiKey: "e5c83518b67da17a254574c31759596b",
+      indexName: "anheyu",
       // searchParameters: {
       //   facetFilters: ['tags:en'],
       // },
@@ -130,8 +142,9 @@ export default defineConfig({
       text: "Edit this page on GitHub",
     },
   },
+  lastUpdated: true,
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
   },
   locales: {
     root: { label: "简体中文" },

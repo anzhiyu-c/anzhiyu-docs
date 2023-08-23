@@ -1,7 +1,7 @@
 ---
 title: 音乐馆页配置
 ---
-# 页面配置
+# 页面配置📦
 ## 音乐馆页配置
 
 1. 前往你的 Hexo 博客的根目录
@@ -202,4 +202,5 @@ title: 音乐馆页配置
 
 将`menu`中音乐馆的路径修改为以下格式即可`/music/?id=1708664797&server=tencent`，支持`id`和`server`参数。
 
+id 与 server 的填写请参考[MetingJS](https://github.com/metowolf/MetingJS)
 ![音乐馆页](https://img02.anheyu.com/adminuploads/1/2023/04/09/643264b4da332.png!blogimg)

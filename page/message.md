@@ -1,17 +1,17 @@
 ---
 title: 留言板页面配置
 ---
-# 页面配置
+# 页面配置📦
 ## 留言板页面配置
 
 在博客根目录执行
 
-```
+```bash
 npm install hexo-butterfly-envelope --save
 ```
 
 在站点配置文件_config.yml中添加以下内容配置，更多配置请查看信笺样式留言板
-```markdown
+```yml
 #envelope_comment
 #seehttps://akilar.top/posts/e2d3c450/
 envelope_comment:
