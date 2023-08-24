@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2023-08-22 11:34:10
- * @LastEditTime: 2023-08-23 12:03:22
+ * @LastEditTime: 2023-08-24 12:42:51
  * @LastEditors: 安知鱼
  */
 import { defineConfig } from "vitepress";
@@ -19,6 +19,7 @@ const ogUrl = "https://docs.anheyu.com";
 export default defineConfig({
   title: "安知鱼主题官方文档",
   description: "一个简洁、美丽的hexo主题",
+  lang: "zh-CN",
   head: [
     ["link", { rel: "icon", type: "image/png", href: "/logo.png" }],
     ["meta", { property: "og:type", content: "website" }],
@@ -85,7 +86,7 @@ export default defineConfig({
       apiKey: "e5c83518b67da17a254574c31759596b",
       indexName: "anheyu",
       // searchParameters: {
-      //   facetFilters: ['tags:en'],
+      //   facetFilters: ["tags:en"],
       // },
       locales: {
         zh: {
@@ -147,6 +148,6 @@ export default defineConfig({
     lineNumbers: true,
   },
   locales: {
-    root: { label: "简体中文" },
+    root: { label: "简体中文", lang: "zh-CN" },
   },
 });
