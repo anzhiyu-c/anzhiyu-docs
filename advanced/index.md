@@ -571,6 +571,8 @@ algolia_search:
 
 hexo 配置文件 `_config.yml` 添加以下内容
 
+注意algolia搜索出来URL前缀为hexo配置文件`_config.yml`中的`url`配置。
+
 ```yaml
 # algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
 algolia:
