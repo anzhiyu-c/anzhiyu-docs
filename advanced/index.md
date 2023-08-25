@@ -569,7 +569,7 @@ algolia_search:
     per_page: 6
 ```
 
-hexo 配置文件
+hexo 配置文件 `_config.yml` 添加以下内容
 
 ```yaml
 # algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
