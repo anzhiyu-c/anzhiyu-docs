@@ -109,3 +109,21 @@ menu:
 ```
 
 ![友情链接页](https://img02.anheyu.com/adminuploads/1/2023/04/09/6432641611b97.png!blogimg)
+
+
+## 与数百博主共同进步
+
+在主题配置文件中`_config.anzhiyu.yml`中配置
+
+```yml
+# 友情链接顶部相关配置
+linkPageTop:
+  enable: true
+  title: 与数百名博主无限进步
+  # 添加博主友链的评论自定义格式
+  addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
+```
+
+![与数百博主共同进步](https://bu.dusays.com/2023/08/26/64e976513baed.webp)
+
+建议超过 30 以上的友链数开启，友链数目不够会导致头像无法铺满。
