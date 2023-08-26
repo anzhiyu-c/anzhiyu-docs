@@ -49,7 +49,7 @@ menu:
     #   随便逛逛: javascript:toRandomPost() || icon-shoe-prints1
 ```
 
-主题配置文件中开启`friends_vue.enable`，自行设置 twikoo 地址和顶部模块背景，注意缩进！！！
+主题配置文件中开启`friends_vue.enable`，自行设置 朋友圈后端地址 和 顶部模块背景，注意缩进！！！
 
 ```yml
 # 朋友圈配置
