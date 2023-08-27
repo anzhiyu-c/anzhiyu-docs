@@ -745,7 +745,7 @@ pwa:
   ```bash
   npx pwa-asset-generator ./public/img/512.png ./public/img/siteicon --padding "calc(50vh - 20%) calc(50vw - 40%)" -s false -h true
   ```
-  这条命令会使用`themes/source/img/512.png`这张图片来生成siteicon到目录`/public/img/siteicon`中，由于`hexo cl`会清除`/public`目录中的文件，所以每次`hexo d`之前都需要执行，如果不想每次`hexo d`之前都执行的话，可以将主题中的`themes/source/img/512.png`图片复制移动到`根目录``/source/img`中，然后将生成后的`/public/img/siteicon`文件夹复制到`根目录``/source/img`中，这样`根目录``/source/img`中就会一直有`siteicon`，以后执行`hexo g`时，也会将`siteicon`生成到`public`目录中。
+  这条命令会使用`themes/anzhiyu/source/img/512.png`这张图片来生成siteicon到目录`/public/img/siteicon`中，由于`hexo cl`会清除`/public`目录中的文件，所以每次`hexo d`之前都需要执行，如果不想每次`hexo d`之前都执行的话，可以将主题中的`themes/anzhiyu/source/img/512.png`图片复制移动到`根目录``/source/img`中，然后将生成后的`/public/img/siteicon`文件夹复制到`根目录``/source/img`中，这样`根目录``/source/img`中就会一直有`siteicon`，以后执行`hexo g`时，也会将`siteicon`生成到`public`目录中。
 
 7. 在hexo g以后执行一次hexo swpp命令
   如果你的网站使用了 CDN 且启用了 CDN 端缓存，请务必将 CDN 缓存时间调整至最大值，然后每次更新网页内容后手动刷新 CDN 缓存。
