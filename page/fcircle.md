@@ -55,7 +55,7 @@ menu:
 # 朋友圈配置
 friends_vue:
   enable: false
-  vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.8/friends/index.804b9513.js
+  vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.2/friends/index.f9a2b8d2.js
   apiurl: # 朋友圈后端地址
   top_background:
 ```
@@ -72,12 +72,12 @@ friends_vue:
 ```yml
 friends_vue:
   enable: true
-  vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.8/friends/index.804b9513.js
+  vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.2/friends/index.f9a2b8d2.js
   apiurl: https://friends.anheyu.com/ # 朋友圈后端地址
   top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
 ```
 
-其中`vue_js`参数，可以将`https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/js/friends_vue/index.js`下载下来后将其中的
+其中`vue_js`参数，可以将`https://npm.elemecdn.com/anzhiyu-theme-static@1.1.2/friends/index.f9a2b8d2.js`下载下来后将其中的
 `friends.anheyu.com`替换为您的后端 url 然后上传至您的存储端以url的形式使用。
 
 原项目地址：[hexo-circle-of-friends-front](https://github.com/anzhiyu-c/hexo-circle-of-friends-front/tree/anzhiyu)
