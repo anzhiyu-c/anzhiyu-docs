@@ -133,6 +133,31 @@ nav:
 - mac
 - mac light
 
+`darker`
+
+![darker](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf03c029.png)
+
+`pale night`
+
+![pale night](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf02c312.png)
+
+`light`
+
+![light](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf0382d1.png)
+
+`ocean`
+
+![ocean](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf03185f.png)
+
+`mac`
+
+![mac](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf031c0d.png)
+
+`mac light`
+
+![mac light](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf038752.png)
+
+
 修改 `主题配置文件`
 
 ```yaml
