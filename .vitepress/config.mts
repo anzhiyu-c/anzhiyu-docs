@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2023-08-22 11:34:10
- * @LastEditTime: 2023-08-24 12:53:31
+ * @LastEditTime: 2023-08-29 16:20:54
  * @LastEditors: 安知鱼
  */
 import { defineConfig } from "vitepress";
@@ -51,16 +51,7 @@ export default defineConfig({
               { text: "front-matter的基本认识", link: "/page/front-matter" },
               { text: "标签页配置", link: "/page/tags" },
               { text: "分类页配置", link: "/page/classify" },
-              { text: "首页即刻说说页面配置", link: "/page/essay" },
-              { text: "友情链接配置", link: "/page/links" },
-              { text: "关于页面配置", link: "/page/about" },
-              { text: "相册页面配置", link: "/page/album" },
-              { text: "朋友圈页面配置", link: "/page/fcircle" },
-              { text: "音乐馆页配置", link: "/page/music" },
               { text: "404页面配置", link: "/page/404" },
-              { text: "追番页面配置", link: "/page/bilibili" },
-              { text: "留言板页面配置", link: "/page/message" },
-              { text: "我的装备页面配置", link: "/page/equipment" },
             ],
           },
           {
@@ -73,7 +64,23 @@ export default defineConfig({
           },
           {
             text: "进阶配置 🚀",
-            link: "/advanced/",
+            collapsed: false,
+            items: [
+              { text: "全局配置", link: "/advanced/" },
+              { text: "友情链接配置", link: "/page/links" },
+              { text: "留言板页面配置", link: "/page/message" },
+              { text: "我的装备页面配置", link: "/page/equipment" },
+              { text: "追番页面配置", link: "/page/bilibili" },
+              { text: "关于页面配置", link: "/page/about" },
+              { text: "音乐馆页配置", link: "/page/music" },
+              { text: "朋友圈页面配置", link: "/page/fcircle" },
+              { text: "相册页面配置", link: "/page/album" },
+              { text: "首页即刻说说页面配置", link: "/page/essay" },
+            ],
+          },
+          {
+            text: "常见问题 📖",
+            link: "/FAQ",
           },
         ],
       },

@@ -253,7 +253,9 @@ icons:
 
 使用方法，将图标库中的图标名复制，然后加上前缀`anzhiyu-icon-`即可，比如`github`图标，则为`anzhiyu-icon-github`。
 
-社交图标，书写格式 `名称：url || icon名称`
+## 社交图标
+
+书写格式 `名称：url || icon名称`
 
 ```yaml
 # social settings (社交图标设置)
@@ -273,6 +275,35 @@ icons:
   fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 ```
 
+![社交图标](https://bu.dusays.com/2023/08/29/64eda5df0196d.png)
+
+社交图标配置完以后个人卡片会出现图标内容，图标左边的内容为你的站点信息，在hexo的配置文件`_config.yml`中配置`author`和`subtitle`字段
+
+![](https://bu.dusays.com/2023/08/29/64eda70d5478c.webp)
+
+## 个人卡片
+
+个人卡片hover后的显示描述，该描述请在[侧边栏配置](https://docs.anheyu.com/global/extra.html#%E4%BE%A7%E8%BE%B9%E6%A0%8F%E8%AE%BE%E7%BD%AE)中的`aside.card_author.description`中修改，支持html显示。
+
+![](https://bu.dusays.com/2023/08/29/64eda8cce4fb4.webp)
+
+卡片顶部的状态配置：
+```yml
+# 作者卡片 状态
+author_status:
+  enable: true
+  # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
+  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  skills:
+    - 🤖️ 数码科技爱好者
+    - 🔍 分享与热心帮助
+    - 🏠 智能家居小能手
+    - 🔨 设计开发一条龙
+    - 🤝 专修交互与设计
+    - 🏃 脚踏实地行动派
+    - 🧱 团队小组发动机
+    - 💢 壮汉人狠话不多
+```
 ## 顶部图
 
 相关信息

@@ -43,6 +43,12 @@ Anzhiyu主题拥有**Main**(稳定版)和**Dev**(测试版)两种版本, 我们�
 git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu
 ```
 
+如遇安装不上可以使用以下url代理安装
+
+```bash
+git clone -b main https://ghproxy.com/https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu
+```
+
 **方式二(Release 推荐):**
 
 下载 [最新 release 版本](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/releases) 解压到 `themes` 目录，并将解压出的文件夹重命名为 `anzhiyu`。
@@ -74,6 +80,12 @@ theme: anzhiyu
 
 ```bash
 npm install hexo-renderer-pug hexo-renderer-stylus --save
+```
+
+无法安装可以使用cnpm进行安装
+
+```bash
+npm install hexo-renderer-pug hexo-renderer-stylus --save --registry=http://registry.npmmirror.com
 ```
 
 ## 覆盖配置

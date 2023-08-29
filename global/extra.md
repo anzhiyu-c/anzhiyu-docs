@@ -81,19 +81,14 @@ aside:
   button: true
   mobile: true # display on mobile
   position: right # left or right
-  display:
+  display: # 控制对应详情页面是否显示侧边栏
     archive: true
     tag: true
-    category: false
+    category: true
   card_author:
     enable: true
-    type: 2 # 1为使用头像card 2为不使用头像card
     description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div>
-    button:
-      enable: true
-      icon: anzhiyu-icon-arrow-circle-right
-      text: 了解更多
-      link: /about/
+    name_link: /about
   card_announcement:
     enable: false
     content: 欢迎来看我的博客鸭~
@@ -114,8 +109,11 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: true
+    color: false
     sort_order: # Don't modify the setting unless you know how it works
+    highlightTags:
+      - Hexo
+      - 前端
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -126,10 +124,10 @@ aside:
   card_webinfo:
     enable: true
     post_count: true
-    last_push_date: true
+    last_push_date: false
     sort_order: # Don't modify the setting unless you know how it works
 ```
-
+其中 `card_weixin` 可以控制微信公众号的图片，`face`为翻转前的图片，`backFace`为翻转后的图片。
 ## 访问人数 busuanzi
 
 访问 busuanzi 的[官方网站](http://busuanzi.ibruce.info/)查看更多的介绍。
