@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2023-08-22 11:34:10
- * @LastEditTime: 2023-08-29 16:20:54
+ * @LastEditTime: 2023-09-02 19:15:57
  * @LastEditors: 安知鱼
  */
 import { defineConfig } from "vitepress";
@@ -30,6 +30,20 @@ export default defineConfig({
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:site", content: "@anzhiyu" }],
     ["meta", { name: "theme-color", content: "#646cff" }],
+    // 添加百度统计代码
+    [
+      "script",
+      {},
+      `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?bfb308357e73d7e9c856af04a77e822d";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+       `,
+    ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
