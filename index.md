@@ -2,12 +2,12 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-title: 安知鱼主题
+title: 安知鱼主题官方文档
 titleTemplate: 一个简洁、美丽的静态hexo主题
 
 hero:
   name: "安知鱼主题官方文档"
-  text: "一个简洁、美丽的hexo主题"
+  text: "一个简洁、美丽的静态hexo主题"
   tagline: 生活明朗，万物可爱
   actions:
     - theme: brand
