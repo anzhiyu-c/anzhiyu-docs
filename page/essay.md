@@ -124,7 +124,7 @@ menu:
 ```
 
 ::: danger 注意
-示例数据中的图片不保证可用性，请自行更换为您自己的图床链接。图床相关知识=>[我的图床方案](https://anheyu.com/posts/2785.html)
+示例数据中的图片不保证可用性，请自行更换为您自己的图床链接。图床相关知识=>[我的图床方案](https://blog.anheyu.com/posts/2785.html)
 :::
 
 ![即刻说说页面](https://img02.anheyu.com/adminuploads/1/2023/04/09/643263bdd2aa4.png!blogimg)
