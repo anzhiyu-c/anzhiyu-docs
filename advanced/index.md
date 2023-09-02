@@ -316,6 +316,8 @@ footer:
 
 如果实在有强迫症也可以自行修改内容`themes/anzhiyu/layout/includes/anzhiyu/log-js.pug`。
 
+![控制台打印信息](https://bu.dusays.com/2023/09/02/64f29cf50177c.png)
+
 ## 如何配置首页顶部右侧不使用轮播图
 
 ![效果预览](https://img02.anheyu.com/adminuploads/1/2023/03/27/642172c889a45.png)
@@ -409,18 +411,57 @@ categories: 前端开发
 
 只需要在创建分类以后在对应的文章中添加上对应的分类，配置 path 即可，注意一定要对应。
 
-## 左下角歌单
+## 左下角音乐球
 
 歌单配置很简单，只需要修改主题配置文件中`nav_music`即可.
+
+其中id与server配置可以参考[MetingJS](https://github.com/metowolf/MetingJS)
+
+|option               |default      |description|
+|:--------------------|:------------:|:----------|
+|id              |**require**   |song id / playlist id / album id / search keyword|
+|server          |**require**   |music platform: `netease`, `tencent`, `kugou`, `xiami`, `baidu`|
 
 ```yml
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
 nav_music:
-  enable: false
+  enable: true
+  console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 8152976493
   server: netease
+  all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
 ```
+
+![](https://bu.dusays.com/2023/09/02/64f294ef59784.png)
+
+## 评论匿名邮箱
+
+目前只支持Twikoo
+
+```yml
+# 评论匿名邮箱
+visitorMail:
+  enable: true
+  mail: visitor@anheyu.com
+```
+
+![评论匿名](https://bu.dusays.com/2023/09/02/64f294f05b26a.png)
+
+## 文章底部工具
+
+```yml
+# ptool 文章底部工具
+ptool:
+  enable: true
+  share_mobile: true
+  share_weibo: true
+  share_copyurl: true
+  categories: false # 是否显示分类
+  mode: /wechat/ # 运营模式与责任，不配置不显示
+```
+
+![](https://bu.dusays.com/2023/09/02/64f29566258df.png)
 
 ## 首页技能点配置
 
@@ -782,3 +823,174 @@ addtoany:
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 ```
 
+## 欢迎语配置
+
+在每次进入首页时根据当前时间弹出欢迎语，为true时必须配置list。
+
+
+```yml
+# 欢迎语配置
+greetingBox:
+  enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
+  default: 晚上好👋
+  list:
+    - greeting: 晚安😴
+      startTime: 0
+      endTime: 5
+    - greeting: 早上好鸭👋, 祝你一天好心情！
+      startTime: 6
+      endTime: 9
+    - greeting: 上午好👋, 状态很好，鼓励一下～
+      startTime: 10
+      endTime: 10
+    - greeting: 11点多啦, 在坚持一下就吃饭啦～
+      startTime: 11
+      endTime: 11
+    - greeting: 午安👋, 宝贝
+      startTime: 12
+      endTime: 14
+    - greeting: 🌈充实的一天辛苦啦！
+      startTime: 14
+      endTime: 18
+    - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+      startTime: 19
+      endTime: 19
+    - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+      startTime: 20
+      endTime: 24
+```
+
+![欢迎语配置](https://bu.dusays.com/2023/09/02/64f295fbab122.png)
+
+## 博客快捷键
+
+```yml
+# 快捷键配置
+shortcutKey:
+  enable: true
+  delay: 100 # 所有键位延时触发而不是立即触发（包括shift，以解决和浏览器键位冲突问题）
+  shiftDelay: 200 # shift按下延时多久开启
+```
+
+![博客快捷键](https://bu.dusays.com/2023/09/02/64f28f14b1677.png)
+
+## 无障碍优化
+
+```yml
+# 无障碍优化（在首页按下「shift + ?」以查看效果）
+accesskey:
+  enable: true
+```
+
+![无障碍优化](https://bu.dusays.com/2023/09/02/64f2969b6a83b.webp)
+
+## 友情链接顶部相关配置
+
+```yml
+# 友情链接顶部相关配置
+linkPageTop:
+  enable: true
+  title: 与数百名博主无限进步
+  # 添加博主友链的评论自定义格式
+  addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
+```
+
+![](https://bu.dusays.com/2023/09/02/64f296f1ed91f.webp)
+
+## 缩略图后缀
+该配置用于优化缩略图，archive/tag/category 页面单独开启后缀，可以优化图像质量问题，注意开启后一定要保证你的图片本身可以支持链接后➕pageThumbnailSuffix能够被访问。
+
+```yml
+# 缩略图后缀 archive/tag/category 页面单独开启后缀
+pageThumbnailSuffix: "!page_thumbnail"
+```
+
+![缩略图后缀](https://bu.dusays.com/2023/09/02/64f297a3be6a7.webp)
+
+## 隐私协议弹窗
+
+该弹窗一个窗口会话只会弹出一次。
+
+```yml
+# 隐私协议弹窗
+agreementPopup:
+  enable: true
+  url: /privacy
+```
+
+![隐私协议弹窗](https://bu.dusays.com/2023/09/02/64f297ecbb523.webp)
+
+## 定制化的右键菜单
+
+开启`rightClickMenu`即可。
+
+```yml
+# 右键菜单
+rightClickMenu:
+  enable: true
+```
+
+![右键菜单一般情况](https://bu.dusays.com/2023/09/02/64f2987b95753.png)
+
+![右键菜单链接情况](https://bu.dusays.com/2023/09/02/64f2987b95753.png)
+
+## 动效控制
+
+```yml
+# 动效
+dynamicEffect:
+  postTopWave: true # 文章顶部波浪效果
+  postTopRollZoomInfo: true # 文章顶部滚动时缩放
+  pageCommentsRollZoom: true # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
+```
+
+![文章顶部波浪效果](https://bu.dusays.com/2023/09/02/64f298e0920cb.webp)
+
+![文章顶部滚动时缩放](https://bu.dusays.com/2023/09/02/64f299eb3ea0d.gif)
+
+![非文章页面评论滚动时缩放显示](https://bu.dusays.com/2023/09/02/64f29a87d6dbc.gif)
+
+## 51A统计
+
+可以配置 [51A统计](https://v6.51.la/user/application) 与[灵雀](https://perf.51.la/manage/home)
+
+配置后可在关于页面显示统计信息。
+
+```yml
+# 51a统计配置
+LA:
+  enable: true
+  ck: Jp8wwGQpp21utaFQ
+  LingQueMonitorID: Jp8ztDRrxmTf7LDj
+```
+
+::: warning 警告
+注意一定要开启数据挂件功能!!!
+:::
+
+![开启数据挂件](https://bu.dusays.com/2023/09/02/64f29c8ae5d5a.png)
+
+![51A统计ck](https://bu.dusays.com/2023/09/02/64f29c29019c9.png)
+
+![灵雀LingQueMonitorID](https://bu.dusays.com/2023/09/02/64f29be2c2aee.webp)
+
+## 页面卡片顶部气泡升起效果
+
+```yml
+# 页面卡片顶部气泡升起效果
+bubble:
+  enable: false
+```
+
+![页面卡片顶部气泡升起效果](https://bu.dusays.com/2023/09/02/64f29d7965a3d.webp)
+
+
+## 深色模式粒子效果canvas
+
+```yml
+# 深色模式粒子效果canvas
+universe:
+  enable: true
+```
+
+![深色模式粒子效果canvas](https://bu.dusays.com/2023/09/02/64f29dfaa6f04.webp)

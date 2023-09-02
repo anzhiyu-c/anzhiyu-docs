@@ -299,7 +299,29 @@ rightside_item_order:
 
 只需要将标签写在md文件内即可使用，详细写法请阅读 [安知鱼主题标签 Tag Plugins](https://blog.anheyu.com/posts/d50a.html) 查看
 
+## 评论弹幕
 
+![](https://bu.dusays.com/2023/09/02/64f28f14a7a42.png)
+
+评论弹幕仅支持Twikoo。
+
+token在你博客的控制台获取，打开浏览器开发者工具，找到本地存储空间，找到键名为`twikoo-access-token`的内容，将值复制下来填写即可，本方法仅限server部署，其他部署方案请自行查看如何获取token。
+
+![token获取](https://bu.dusays.com/2023/09/02/64f292d6d8fef.png)
+
+```yml
+# 留言弹幕配置
+comment_barrage_config:
+  enable: true
+  # 同时最多显示弹幕数
+  maxBarrage: 1
+  # 弹幕显示间隔时间ms
+  barrageTime: 8000
+  # token
+  accessToken: "xxxxxx"
+  # 博主邮箱md5值
+  mailMd5: "xxxxxxxxxx"
+```
 ## 分析统计
 
 ### 百度统计
