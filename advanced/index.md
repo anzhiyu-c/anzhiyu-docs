@@ -593,7 +593,9 @@ site_verification:
 
 ## 搜索系统
 
-### algolia
+:::tabs
+
+== algolia
 
 记得运行 hexo clean
 
@@ -633,7 +635,7 @@ algolia:
     - title
 ```
 
-### 本地搜索
+== 本地搜索
 
 记得运行 `hexo clean`
 
@@ -654,7 +656,7 @@ local_search:
 | preload | 预加载，开启后，进入网页后会自动加载搜索文件。关闭时，只有点击搜索按钮后，才会加载搜索文件 |
 | CDN     | 搜索文件的 CDN 地址（默认使用的本地链接）                       |
 
-### DocSearch
+== DocSearch
 DocSearch 是另一款由 algolia 提供的搜索服务，具体申请和使用请查看 [DocSearch 文档](https://docsearch.algolia.com/)
 
 ```yaml
@@ -674,9 +676,19 @@ docsearch:
 | indexName | 【必须】你的 Algolia index name                                                |
 | option    | 【可选】其余的 docsearch 配置 具体配置可查[这里](https://docsearch.algolia.com/docs/api/) |
 
+
+:::
+
 ## 数学公式
 
-### Mathjax
+:::tabs
+
+== hexo-renderer-pandoc（推荐）
+
+详情请见 https://www.yyyzyyyz.cn/posts/654d8712aff4/
+
+== Mathjax
+
 不要在标题里使用 mathjax 语法，toc 目录不一定能正确显示 mathjax，可能显示 mathjax 代码
 
 建议使用 KaTex 获得更好的效果，下文有介绍！
@@ -718,8 +730,8 @@ kramed:
   smartLists: true
   smartypants: true
 ```
-### KaTeX
 
+== KaTeX
 不要在标题里使用 KaTeX 语法，toc 目录不能正确显示 KaTeX。
 
 首先禁用 `MathJax`（如果你配置过 MathJax 的话），然后修改你的`主题配置文件`以便加载 `katex.min.css`:
@@ -737,8 +749,8 @@ katex:
 
 因为 KaTeX 更快更轻量，因此没有 MathJax 的功能多（比如右键菜单）。为那些使用 MathJax 的用户，主题也内置了 katex 的 [复制](https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex) 功能。
 
-@tab hexo-renderer-markdown-it
 
+== hexo-renderer-markdown-it
 卸载掉 marked 插件，安装 [hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it)
 
 ```BASH
@@ -760,7 +772,7 @@ markdown:
 
 如需配置其它参数，请参考 [katex 官网](https://katex.org/docs/options.html)
 
-### hexo-renderer-markdown-it-plus
+== hexo-renderer-markdown-it-plus
 
 > 注意，此方法生成的 katex 没有斜体
 
@@ -796,13 +808,15 @@ markdown_it_plus:
 
 当然，你还可以利用这个特性来定义一些自己常用的 `macros`。
 
+:::
+
+
 ## 分享
 
 只能选择一个分享服务商
 
-### sharejs
-
-@tab sharejs
+:::tabs
+== sharejs
 如果你不知道 [sharejs](https://github.com/overtrue/share.js/)，看看它的説明。
 
 修改 `主题配置文件`
@@ -813,8 +827,7 @@ sharejs:
   sites: facebook,twitter,wechat,weibo,qq #想要显示的内容
 ```
 
-### addtoany
-
+== addtoany
 可以到 [addtoany](https://www.addtoany.com/) 查看使用説明
 
 ```yml
@@ -822,6 +835,9 @@ addtoany:
   enable: true
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 ```
+
+:::
+
 
 ## 欢迎语配置
 

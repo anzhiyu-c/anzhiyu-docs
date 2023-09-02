@@ -3,10 +3,11 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2023-08-22 11:34:10
- * @LastEditTime: 2023-09-02 19:15:57
+ * @LastEditTime: 2023-09-02 21:53:30
  * @LastEditors: 安知鱼
  */
 import { defineConfig } from "vitepress";
+import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 
 const commitRef = process.env.COMMIT_REF?.slice(0, 8) || "dev";
 
@@ -167,6 +168,9 @@ export default defineConfig({
   lastUpdated: true,
   markdown: {
     lineNumbers: true,
+    config(md) {
+      md.use(tabsMarkdownPlugin);
+    },
   },
   locales: {
     root: { label: "简体中文", lang: "zh" },
