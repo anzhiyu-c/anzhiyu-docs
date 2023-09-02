@@ -286,15 +286,15 @@ rightside_item_order:
   show: # toc,chat,comment
 ```
 
-## 标签外挂
+## 短标签 Tag Plugins
 
 ::: tip
-标签外挂是 Hexo 独有的功能，并不是标准的 Markdown 格式。
+短标签是 Hexo 独有的功能，并不是标准的 Markdown 格式。
 以下的写法，只适用于 AnZhiYu 主题，用在其它主题上不会有效果，甚至可能会报错。使用前请留意
 :::
 
 ::: warning
-标签外挂虽然能为主题带来一些额外的功能和 UI 方面的强化，但是，标签外挂也有明显的限制，使用时请留意。
+短标签虽然能为主题带来一些额外的功能和 UI 方面的强化，但是，短标签也有明显的限制，使用时请留意。
 :::
 
 只需要将标签写在md文件内即可使用，详细写法请阅读 [安知鱼主题标签 Tag Plugins](https://blog.anheyu.com/posts/d50a.html) 查看
