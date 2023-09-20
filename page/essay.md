@@ -18,14 +18,14 @@ title: 首页即刻说说页面配置
    记得添加 `type: "essay"`
 
 ```yml 
-  ---
-  title: 即刻短文
-  date: 2020-07-22 22:06:17
-  comments: true
-  aside: false
-  top_img: false
-  type: essay
-  ---
+---
+title: 即刻短文
+date: 2020-07-22 22:06:17
+comments: true
+aside: false
+top_img: false
+type: essay
+---
 ```
 
 5. 新建`source/_data/essay.yml`，输入以下内容，具体字段不做解释，可以依葫芦画瓢。

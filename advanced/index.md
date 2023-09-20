@@ -467,6 +467,15 @@ ptool:
 
 [blog]代表你的博客根目录。示例数据中的图片链接为本人图床，请自行上传至您自己的图床，（不保证永久可用性）。
 
+主题配置文件，关闭`peoplecanvas.enable`
+
+```yml
+# 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
+peoplecanvas:
+  enable: false
+  img: https://upload-bbs.miyoushe.com/upload/2023/09/03/125766904/ee23df8517f3c3e3efc4145658269c06_5714860933110284659.png
+```
+
 创建`[blog]/source/_data/creativity.yml`，输入以下内容
 
 ```yml
