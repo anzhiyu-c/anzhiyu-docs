@@ -40,6 +40,10 @@ title: 首页即刻说说页面配置
   home_essay: true
   top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
   essay_list:
+    - content: 安知鱼主题指南
+      date: 2023/09/09
+      video:
+        - https://player.bilibili.com/player.html?aid=226886152&bvid=BV1Ch41137tR&cid=1081639816&p=1&autoplay=0
     - content: 支持了Accesskey快捷键，可以直接按下shift + ?组合键以查看快捷键选项。
       date: 2023/07/01
       video:
@@ -94,6 +98,8 @@ title: 首页即刻说说页面配置
       date: 2022/09/21
       link: https://www.bilibili.com/bangumi/play/ss39431?spm_id_from=333.337.0.0
 ```
+
+【主题版本1.6.7以上支持】其中video对于bilibili进行的额外的支持，视频为player.bilibili.com的将显示为bilibili视频，并且可以在链接后面拼接`&autoplay=0`控制不自动播放
 
 ::: warning 警告
 主题配置文件中开启`menu`中关于和闲言碎语的注释，导航栏闲言碎语，注意缩进！！！
