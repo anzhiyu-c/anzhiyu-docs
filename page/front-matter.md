@@ -31,6 +31,7 @@ aside:
 aplayer:
 highlight_shrink:
 type:
+top_single_background:
 ```
 
 ```markdown [Post Front-matter]
@@ -80,6 +81,7 @@ background: "#fff"
 | aside            | 【可选】显示侧边栏 (默认 true)                               |
 | aplayer          | 【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置 |
 | highlight_shrink | 【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置) |
+| top_single_background | 【可选】部分页面的顶部模块背景图片 |
 
 ## Post Front-matter
 
@@ -110,13 +112,12 @@ background: "#fff"
 | aside                 | 【可选】显示侧边栏 (默认 true)                               |
 | swiper_index          | 【可选】首页轮播图配置 index 索引，数字越小越靠前            |
 | top_group_index       | 【可选】首页右侧卡片组配置, 数字越小越靠前                   |
-| background            | 【可选】文章背景可配置为 16 进制颜色值                       |
 | ai                    | 【可选】文章ai摘要                                           |
 | main_color            | 【可选】文章主色，必须是16进制颜色且有6位，不可缩减，例如#ffffff 不可写成#fff |
 
 1. 首页轮播图配置: `swiper_index`, 数字越小越靠前
 2. 首页卡片配置: `top_group_index`, 数字越小越靠前
-3. page 中`background`, 可配置为 16 进制颜色值
+3. page 中`top_single_background`, 可配置部分页面的顶部背景图片
 
 ::: tip
 只需要在你的文章顶部的`Front-matter`配置这`swiper_index`和`top_group_index`两个字段即可显示轮播图和推荐卡片
