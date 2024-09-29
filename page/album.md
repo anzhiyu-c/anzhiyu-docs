@@ -54,7 +54,7 @@ title: 相册页面配置
 
     ```yml
     - class_name: 世界各地夕阳与风景
-      path_name: /wordScenery
+      path_name: /worldScenery
       type: 2
       description: 因为到不了世界各地，所以请网友们发来了各地的夕阳与风景🌇。
       cover: https://bu.dusays.com/2023/04/09/64329399d1175.jpg
@@ -125,7 +125,7 @@ title: 相册页面配置
 
 ```bash
 hexo new page dailyPhoto
-hexo new page wordScenery
+hexo new page worldScenery
 ```
 
 你会找到 `source/dailyPhoto/index.md` 和`source/wordScenery/index.md`两个文件，这两个为相册集详情页
