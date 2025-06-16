@@ -57,7 +57,7 @@ title: 相册页面配置
       path_name: /wordScenery
       type: 2
       description: 因为到不了世界各地，所以请网友们发来了各地的夕阳与风景🌇。
-      cover: https://bu.dusays.com/2023/04/09/64329399d1175.jpg
+      cover: https://upload-bbs.miyoushe.com/upload/2025/06/13/125766904/2cf2b6aea07bba089d0d17c4fea72d1b_5366629137934368264.png
       top_background: https://bu.dusays.com/2023/06/30/649e546ada7dd.webp
       rowHeight: 220
       limit: 10
