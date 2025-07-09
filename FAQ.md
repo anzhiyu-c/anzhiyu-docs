@@ -6,7 +6,7 @@ title: 常见问题
 
 ## wordcount is not a function
 
-![](https://bu.dusays.com/2023/08/29/64eda9d99a63a.png)
+![wordcount is not a function](https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/a3637c6bad5be1c7579c4f2bb7fade90_2248957223389172321.png)
 
 产生原因：开启了wordcount的字数统计，但是没有安装对应插件。
 

@@ -316,7 +316,7 @@ footer:
 
 如果实在有强迫症也可以自行修改内容`themes/anzhiyu/layout/includes/anzhiyu/log-js.pug`。
 
-![控制台打印信息](https://bu.dusays.com/2023/09/02/64f29cf50177c.png)
+![控制台打印信息](https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/c1dcc452a9ceca93564790f0bb441b1d_1028622417931412206.png)
 
 ## 如何配置首页顶部右侧不使用轮播图
 
@@ -433,7 +433,7 @@ nav_music:
   all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
 ```
 
-![](https://bu.dusays.com/2023/09/02/64f294ef59784.png)
+![](https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/cf2b1c5fde48d21e4418e1b54a1a5164_4723369210836203093.png)
 
 ## 评论匿名邮箱
 
@@ -473,7 +473,9 @@ ptool:
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
   enable: false
-  img: https://upload-bbs.miyoushe.com/upload/2023/09/03/125766904/ee23df8517f3c3e3efc4145658269c06_5714860933110284659.png
+  img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ee23df8517f3c3e3efc4145658269c06_236200206013649395..png
+
+  # 备用图片（如上面的失效可以用这张） https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ee23df8517f3c3e3efc4145658269c06_5446750740417254342..png
 ```
 
 创建`[blog]/source/_data/creativity.yml`，输入以下内容

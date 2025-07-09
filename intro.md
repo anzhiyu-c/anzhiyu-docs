@@ -16,7 +16,8 @@ title: 主题简介
 </p>
 
 # 简介
-<img src="https://bu.dusays.com/2023/07/24/64bdcbfe96762.webp" height="400" width="600">
+
+<img src="https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/658277d773c29a145adf0d05055ce477_4298679859740980134.webp" height="400" width="600" alt="主题预览" />
 
 ## 欢迎使用安知鱼主题👏!
 
@@ -36,8 +37,7 @@ title: 主题简介
 
 QQ群组：[464636182](https://jq.qq.com/?_wv=1027&k=v7NK7ELr)
 
-![QQ群组](https://bu.dusays.com/2023/07/24/64bdcc4a14d1b.webp)
-
+![QQ群组](https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/1e8ea817c197fb98e4dbd9ed2500d923_6382092418395407285.webp)
 
 ## 功能特性
 

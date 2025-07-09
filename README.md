@@ -24,7 +24,7 @@
 
 # hexo-theme-anzhiyu
 
-![](https://bu.dusays.com/2023/07/24/64bdcbfe96762.webp)
+![](https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/658277d773c29a145adf0d05055ce477_4298679859740980134.webp)
 
 ## 💻 安裝
 
