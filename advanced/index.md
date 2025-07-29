@@ -433,7 +433,7 @@ nav_music:
   all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
 ```
 
-![](https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/cf2b1c5fde48d21e4418e1b54a1a5164_4723369210836203093.png)
+![nav_music](https://upload-bbs.miyoushe.com/upload/2025/07/09/125766904/cf2b1c5fde48d21e4418e1b54a1a5164_4723369210836203093.png)
 
 ## 评论匿名邮箱
 
@@ -446,7 +446,7 @@ visitorMail:
   mail: visitor@anheyu.com
 ```
 
-![评论匿名](https://bu.dusays.com/2023/09/02/64f294f05b26a.png)
+![评论匿名](https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/ff8c3b886c1458502c6ee380fca57242_541291655091259594.png)
 
 ## 文章底部工具
 
@@ -461,7 +461,7 @@ ptool:
   mode: /wechat/ # 运营模式与责任，不配置不显示
 ```
 
-![](https://bu.dusays.com/2023/09/02/64f29566258df.png)
+![文章底部工具](https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/207dcb8f055b525fdbb993de52709e90_5925419818209142417.png)
 
 ## 首页技能点配置
 
@@ -485,34 +485,34 @@ peoplecanvas:
   creativity_list:
     - name: Java
       color: "#fff"
-      icon: https://bu.dusays.com/2023/04/09/643293b1184e9.jpg
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/26ba17ce013ecde9afc8b373e2fc0b9d_1804318147854602575.jpg
     - name: Docker
       color: "#57b6e6"
-      icon: https://bu.dusays.com/2023/04/09/643293b0f0abe.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/544b2d982fd5c4ede6630b29d86f3cae_7350393908531420887.png
     - name: Photoshop
       color: "#4082c3"
-      icon: https://bu.dusays.com/2022/12/15/639aa3a5c240e.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/4ce1d081b9b37b06e3714bee95e58589_1613929877388832041.png
     - name: Node
       color: "#333"
       icon: https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg
     - name: Webpack
       color: "#2e3a41"
-      icon: https://bu.dusays.com/2023/04/09/643293b68026c.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/32dc115fbfd1340f919f0234725c6fb4_4060605986539473613.png
     - name: Pinia
       color: "#fff"
       icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/pinia-logo.svg
     - name: Python
       color: "#fff"
-      icon: https://bu.dusays.com/2023/04/09/643293b1230f7.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/02c9c621414cc2ca41035d809a4154be_7912546659792951301.png
     - name: Vite
       color: "#937df7"
       icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg
     - name: Flutter
       color: "#4499e4"
-      icon: https://bu.dusays.com/2023/04/09/643293b1055c2.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/b5aa93e0b61d8c9784cf76d14886ea46_4590392178423108088.png
     - name: Vue
       color: "#b8f0ae"
-      icon: https://bu.dusays.com/2023/04/09/643293b6788bd.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/cf23526f451784ff137f161b8fe18d5a_692393069314581413.png
     - name: React
       color: "#222"
       icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K
@@ -521,13 +521,13 @@ peoplecanvas:
       icon: https://bu.dusays.com/2022/12/15/639aa3a5c251e.png
     - name: JS
       color: "#f7cb4f"
-      icon: https://bu.dusays.com/2023/04/09/643293b121f02.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/06216e7fddb6704b57cb89be309443f9_7269407781142156006.png
     - name: HTML
       color: "#e9572b"
       icon: https://bu.dusays.com/2022/12/15/639aa3a5c241c.png
     - name: Git
       color: "#df5b40"
-      icon: https://bu.dusays.com/2023/04/09/643293b10ccdd.webp
+      icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/fcc0dbbfe206b4436097a8362d64b558_6981541002497327189.webp
     - name: Apifox
       color: "#e65164"
       icon: https://bu.dusays.com/2022/11/19/6378d6458c6b6.png
