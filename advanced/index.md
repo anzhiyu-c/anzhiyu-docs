@@ -3,6 +3,7 @@ title: 进阶配置
 ---
 
 # 进阶配置 🚀
+
 ## 评论
 
 开启评论需要在 comments-use 中填写你需要的评论。
@@ -29,7 +30,6 @@ comments:
 | lazyload        | 是否为评论开启 lazyload，开启后，只有滚动到评论位置时才会加载评论所需要的资源（开启 lazyload 后，评论数将不显示） |
 | count           | 是否在文章顶部显示评论数                                                                                          |
 | card_post_count | 是否在首页文章卡片显示评论数                                                                                      |
-
 
 ### Twikoo
 
@@ -113,6 +113,7 @@ valine.json
 ```
 
 ### Waline
+
 Waline - 一款从 Valine 衍生的带后端评论系统。可以将 Waline 等价成 With backend Valine。
 
 具体配置可参考 [waline 文档](https://waline.js.org/)
@@ -156,6 +157,7 @@ chat_hide_show: true
 ```
 
 如果使用工具自带的聊天按钮，按钮位置可能会遮挡右下角图标，请配置 `rightside-bottom` 调正右下角图标位置
+
 ### chatra
 
 配置 [chatra](https://chatra.com/cn/),需要知道 `Public key`
@@ -176,6 +178,7 @@ chatra:
 `chatra` 的样式你可以 `Chat Widget` 自行配置
 
 ### tidio
+
 配置 tidio,需要知道 `Public key`
 
 打开 [tidio](https://www.tidio.com/) 并注册账号。
@@ -192,7 +195,9 @@ tidio:
 ```
 
 `tidio`的样式你可以`Channels`自行配置
+
 ### daovoice
+
 打开 [daovoice](https://www.daocloud.io/) 和注册帐号
 
 找到你的 `app id`
@@ -211,6 +216,7 @@ daovoice:
 可在`聊天设置`里配置聊天按钮等样式
 
 ### crisp
+
 打开 [crisp](https://crisp.chat/en/) 并注册帐号
 
 找到需要的网站 ID
@@ -242,15 +248,15 @@ messenger:
 
 需主题版本大于 1.1.6 版本
 
-修改主题配置文件，其中`key`和`Referer` 为 `tianli gpt` 的`key`和`Referer`，可在 https://afdian.net/item/886a79d4db6711eda42a52540025c377 购买 key，购买完成后请立即在[前端面板](https://summary.tianli0.top/)绑定key，以防止被盗用。
+修改主题配置文件，其中`key`和`Referer` 为 `tianli gpt` 的`key`和`Referer`，可在 https://afdian.net/item/886a79d4db6711eda42a52540025c377 购买 key，购买完成后请立即在[前端面板](https://summary.tianli0.top/)绑定 key，以防止被盗用。
 
-适用于AnZhiYu主题项目的Key，前端管理面板 https://summary.tianli0.top/
+适用于 AnZhiYu 主题项目的 Key，前端管理面板 https://summary.tianli0.top/
 
-每个key限制请求字数50000字，如果是已经请求过的内容不会再次消耗key
-使用时需要绑定key。 虚拟物品一经发出不支持退款。
+每个 key 限制请求字数 50000 字，如果是已经请求过的内容不会再次消耗 key
+使用时需要绑定 key。 虚拟物品一经发出不支持退款。
 
 关于续费：
-续费和绑定流程相同，绑定成功后会自动充值到原有的key上，也就是说无需更改网页中的key参数，直接绑定即可。 格式发送，返回的 token 即你的剩余字数
+续费和绑定流程相同，绑定成功后会自动充值到原有的 key 上，也就是说无需更改网页中的 key 参数，直接绑定即可。 格式发送，返回的 token 即你的剩余字数
 
 ```yaml
 # 文章顶部ai摘要
@@ -280,11 +286,10 @@ ai:
 ---
 ```
 
-| mode    | 对比                                                                             |
-| ------- | ------------------------------------------------------------------------------------------ |
-| tianli  | 具有完备的训练后端功能，可优秀的完成文章的摘要，方便的快速生成对应摘要                                                                           |
-| local | 本地，需自行在文章顶部添加 ai 摘要，内容自行决定，书写较为麻烦。 |
-
+| mode   | 对比                                                                   |
+| ------ | ---------------------------------------------------------------------- |
+| tianli | 具有完备的训练后端功能，可优秀的完成文章的摘要，方便的快速生成对应摘要 |
+| local  | 本地，需自行在文章顶部添加 ai 摘要，内容自行决定，书写较为麻烦。       |
 
 ## 控制台信息
 
@@ -378,12 +383,12 @@ mainTone:
   cover_change: true # 整篇文章跟随cover修改主色调
 ```
 
-| 参数    | 解释                                                                                       |
-| ------- | ------------------------------------------------------------------------------------------ |
-| enable  | 是否开启主色调                                                                           |
-| mode | cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取（目前cdn模式支持多吉云和腾讯数据万象两种方式） |
-| api     | mode为api时，需返回16进制颜色，可以参考部署项目: https://github.com/anzhiyu-c/img2color-go                                                  |
-| cover_change     | 整篇文章跟随cover修改主色调                                         |
+| 参数         | 解释                                                                                                                                                                                                 |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| enable       | 是否开启主色调                                                                                                                                                                                       |
+| mode         | cdn/api/both cdn 模式为图片 url+imageAve 参数获取主色调，api 模式为请求 API 获取主色调，both 模式会先请求 cdn 参数，无法获取的情况下将请求 API 获取（目前 cdn 模式支持多吉云和腾讯数据万象两种方式） |
+| api          | mode 为 api 时，需返回 16 进制颜色，可以参考部署项目: https://github.com/anzhiyu-c/img2color-go                                                                                                      |
+| cover_change | 整篇文章跟随 cover 修改主色调                                                                                                                                                                        |
 
 ## 双栏
 
@@ -415,12 +420,12 @@ categories: 前端开发
 
 歌单配置很简单，只需要修改主题配置文件中`nav_music`即可.
 
-其中id与server配置可以参考[MetingJS](https://github.com/metowolf/MetingJS)
+其中 id 与 server 配置可以参考[MetingJS](https://github.com/metowolf/MetingJS)
 
-|option               |default      |description|
-|:--------------------|:------------:|:----------|
-|id              |**require**   |song id / playlist id / album id / search keyword|
-|server          |**require**   |music platform: `netease`, `tencent`, `kugou`, `xiami`, `baidu`|
+| option |   default   | description                                                     |
+| :----- | :---------: | :-------------------------------------------------------------- |
+| id     | **require** | song id / playlist id / album id / search keyword               |
+| server | **require** | music platform: `netease`, `tencent`, `kugou`, `xiami`, `baidu` |
 
 ```yml
 # 左下角音乐配置项
@@ -437,7 +442,7 @@ nav_music:
 
 ## 评论匿名邮箱
 
-目前只支持Twikoo
+目前只支持 Twikoo
 
 ```yml
 # 评论匿名邮箱
@@ -518,19 +523,19 @@ peoplecanvas:
       icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K
     - name: CSS3
       color: "#2c51db"
-      icon: https://bu.dusays.com/2022/12/15/639aa3a5c251e.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/08/02/125766904/948767d87de7c5733b5f59b036d28b4b_3573026798828830876.png
     - name: JS
       color: "#f7cb4f"
       icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/06216e7fddb6704b57cb89be309443f9_7269407781142156006.png
     - name: HTML
       color: "#e9572b"
-      icon: https://bu.dusays.com/2022/12/15/639aa3a5c241c.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/08/02/125766904/f774c401c8bc2707e1df1323bdc9e423_1926035231499717029.png
     - name: Git
       color: "#df5b40"
       icon: https://upload-bbs.miyoushe.com/upload/2025/07/29/125766904/fcc0dbbfe206b4436097a8362d64b558_6981541002497327189.webp
     - name: Apifox
       color: "#e65164"
-      icon: https://bu.dusays.com/2022/11/19/6378d6458c6b6.png
+      icon: https://upload-bbs.miyoushe.com/upload/2025/08/02/125766904/b61bc7287d7f7f89bd30079c7f04360e_2465770520170903938.png
 ```
 
 此时可以看到首页顶部已经有技能点的轮播了。
@@ -552,7 +557,7 @@ nav:
           link: https://index.anheyu.com/
           icon: https://bu.dusays.com/2023/08/13/64d8c2748ef34.jpg
         - name: 博客
-          link: https://blog.anheyu.com/
+          link: https://hexo.anheyu.com/
           icon: https://bu.dusays.com/2023/07/23/64bc72c75319d.png
         - name: 安知鱼图床
           link: https://image.anheyu.com/
@@ -601,7 +606,6 @@ site_verification:
   #   content: xxxxxxx
 ```
 
-
 ## 搜索系统
 
 :::tabs
@@ -625,7 +629,7 @@ algolia_search:
 
 hexo 配置文件 `_config.yml` 添加以下内容
 
-注意algolia搜索出来URL前缀为hexo配置文件`_config.yml`中的`url`配置。
+注意 algolia 搜索出来 URL 前缀为 hexo 配置文件`_config.yml`中的`url`配置。
 
 ```yaml
 # algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
@@ -661,11 +665,11 @@ local_search:
   CDN:
 ```
 
-| 参数      | 解释                                            |
-| ------- | --------------------------------------------- |
-| enable  | 是否开启本地搜索                                      |
+| 参数    | 解释                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------ |
+| enable  | 是否开启本地搜索                                                                           |
 | preload | 预加载，开启后，进入网页后会自动加载搜索文件。关闭时，只有点击搜索按钮后，才会加载搜索文件 |
-| CDN     | 搜索文件的 CDN 地址（默认使用的本地链接）                       |
+| CDN     | 搜索文件的 CDN 地址（默认使用的本地链接）                                                  |
 
 == DocSearch
 DocSearch 是另一款由 algolia 提供的搜索服务，具体申请和使用请查看 [DocSearch 文档](https://docsearch.algolia.com/)
@@ -679,14 +683,13 @@ docsearch:
   option:
 ```
 
-| 参数        | 解释                                                                       |
-| --------- | ------------------------------------------------------------------------ |
-| enable    | 【必须】是否开启 docsearch                                                       |
-| appId     | 【必须】你的 Algolia 应用 ID                                                     |
-| apiKey    | 【必须】你的 Algolia 搜索 API key                                                |
-| indexName | 【必须】你的 Algolia index name                                                |
+| 参数      | 解释                                                                                      |
+| --------- | ----------------------------------------------------------------------------------------- |
+| enable    | 【必须】是否开启 docsearch                                                                |
+| appId     | 【必须】你的 Algolia 应用 ID                                                              |
+| apiKey    | 【必须】你的 Algolia 搜索 API key                                                         |
+| indexName | 【必须】你的 Algolia index name                                                           |
 | option    | 【可选】其余的 docsearch 配置 具体配置可查[这里](https://docsearch.algolia.com/docs/api/) |
-
 
 :::
 
@@ -760,7 +763,6 @@ katex:
 
 因为 KaTeX 更快更轻量，因此没有 MathJax 的功能多（比如右键菜单）。为那些使用 MathJax 的用户，主题也内置了 katex 的 [复制](https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex) 功能。
 
-
 == hexo-renderer-markdown-it
 卸载掉 marked 插件，安装 [hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it)
 
@@ -821,7 +823,6 @@ markdown_it_plus:
 
 :::
 
-
 ## 分享
 
 只能选择一个分享服务商
@@ -849,11 +850,9 @@ addtoany:
 
 :::
 
-
 ## 欢迎语配置
 
-在每次进入首页时根据当前时间弹出欢迎语，为true时必须配置list。
-
+在每次进入首页时根据当前时间弹出欢迎语，为 true 时必须配置 list。
 
 ```yml
 # 欢迎语配置
@@ -925,7 +924,8 @@ linkPageTop:
 ![](https://bu.dusays.com/2023/09/02/64f296f1ed91f.webp)
 
 ## 缩略图后缀
-该配置用于优化缩略图，archive/tag/category 页面单独开启后缀，可以优化图像质量问题，注意开启后一定要保证你的图片本身可以支持链接后➕pageThumbnailSuffix能够被访问。
+
+该配置用于优化缩略图，archive/tag/category 页面单独开启后缀，可以优化图像质量问题，注意开启后一定要保证你的图片本身可以支持链接后 ➕pageThumbnailSuffix 能够被访问。
 
 ```yml
 # 缩略图后缀 archive/tag/category 页面单独开启后缀
@@ -977,9 +977,9 @@ dynamicEffect:
 
 ![非文章页面评论滚动时缩放显示](https://bu.dusays.com/2023/09/02/64f29a87d6dbc.gif)
 
-## 51A统计
+## 51A 统计
 
-可以配置 [51A统计](https://v6.51.la/user/application) 与[灵雀](https://perf.51.la/manage/home)
+可以配置 [51A 统计](https://v6.51.la/user/application) 与[灵雀](https://perf.51.la/manage/home)
 
 配置后可在关于页面显示统计信息。
 
@@ -1011,8 +1011,7 @@ bubble:
 
 ![页面卡片顶部气泡升起效果](https://bu.dusays.com/2023/09/02/64f29d7965a3d.webp)
 
-
-## 深色模式粒子效果canvas
+## 深色模式粒子效果 canvas
 
 ```yml
 # 深色模式粒子效果canvas

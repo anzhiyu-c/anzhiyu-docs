@@ -2,7 +2,6 @@
 title: 额外配置
 ---
 
-
 # 额外配置 🚀
 
 ## Footer 设置
@@ -30,7 +29,7 @@ footer:
     - link: https://hexo.io/ #徽标指向网站链接
       shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
       message: 博客框架为Hexo_v5.4.0 #徽标提示语
-    - link: https://blog.anheyu.com/
+    - link: https://hexo.anheyu.com/
       shields: https://pan.anheyu.com/d/anzhiyu/svg/Theme-AnZhiYu-2E67D3.svg
       message: 本站使用AnZhiYu主题
     - link: https://www.dogecloud.com/
@@ -127,7 +126,9 @@ aside:
     last_push_date: false
     sort_order: # Don't modify the setting unless you know how it works
 ```
+
 其中 `card_weixin` 可以控制微信公众号的图片，`face`为翻转前的图片，`backFace`为翻转后的图片。
+
 ## 访问人数 busuanzi
 
 访问 busuanzi 的[官方网站](http://busuanzi.ibruce.info/)查看更多的介绍。
@@ -297,15 +298,15 @@ rightside_item_order:
 短标签虽然能为主题带来一些额外的功能和 UI 方面的强化，但是，短标签也有明显的限制，使用时请留意。
 :::
 
-只需要将标签写在md文件内即可使用，详细写法请阅读 [安知鱼主题标签 Tag Plugins](https://blog.anheyu.com/posts/d50a.html) 查看
+只需要将标签写在 md 文件内即可使用，详细写法请阅读 [安知鱼主题标签 Tag Plugins](https://hexo.anheyu.com/posts/d50a.html) 查看
 
 ## 评论弹幕
 
 ![](https://bu.dusays.com/2023/09/02/64f28f14a7a42.png)
 
-评论弹幕仅支持Twikoo。
+评论弹幕仅支持 Twikoo。
 
-token在你博客的控制台获取，打开浏览器开发者工具，找到本地存储空间，找到键名为`twikoo-access-token`的内容，将值复制下来填写即可，本方法仅限server部署，其他部署方案请自行查看如何获取token。
+token 在你博客的控制台获取，打开浏览器开发者工具，找到本地存储空间，找到键名为`twikoo-access-token`的内容，将值复制下来填写即可，本方法仅限 server 部署，其他部署方案请自行查看如何获取 token。
 
 ![token获取](https://bu.dusays.com/2023/09/02/64f292d6d8fef.png)
 
@@ -322,6 +323,7 @@ comment_barrage_config:
   # 博主邮箱md5值
   mailMd5: "xxxxxxxxxx"
 ```
+
 ## 分析统计
 
 ### 百度统计
@@ -333,6 +335,7 @@ comment_barrage_config:
 ![](https://bu.dusays.com/2023/06/02/64795c52dff22.jpg)
 
 3. 修改 `主题配置文件`
+
 ```yml
 baidu_analytics: 你的代码
 ```
@@ -346,6 +349,7 @@ baidu_analytics: 你的代码
 ![谷歌分析](https://bu.dusays.com/2023/06/02/64795cfc15eef.jpg)
 
 3. 修改 `主题配置文件`
+
 ```yml
 google_analytics: 你的代码 # 通常以`UA-`打头
 ```
@@ -355,8 +359,9 @@ google_analytics: 你的代码 # 通常以`UA-`打头
 1. 登录 Cloudflare 分析的[官方网站](https://www.cloudflare.com/zh-tw/web-analytics/)
 2. 找到 `JavaScript 程式码片段`
 3. 找到你的 `token`
-![](https://bu.dusays.com/2023/06/02/64795d7a7776b.png)
+   ![](https://bu.dusays.com/2023/06/02/64795d7a7776b.png)
 4. 修改 `主题配置文件`
+
 ```yml
 # Cloudflare Analytics
 # https://www.cloudflare.com/zh-tw/web-analytics/
@@ -374,6 +379,7 @@ cloudflare_analytics:
 ![](https://bu.dusays.com/2023/06/02/64795dd09af94.png)
 
 4. 修改 `主题配置文件`
+
 ```yml
 # Microsoft Clarity
 # https://clarity.microsoft.com/
@@ -387,6 +393,7 @@ microsoft_clarity:
 主题已集成谷歌广告（自动广告）
 
 修改 `主题配置文件`
+
 ```yml
 google_adsense:
   enable: true
@@ -399,8 +406,9 @@ google_adsense:
 ![](https://bu.dusays.com/2023/06/02/64795e6fba8e3.png)
 
 ### 手动广告配置
-主题预留了三个位置可供插入广告，分别为主页文章(每三篇文章出现广告)/aside公告之后/文章页打赏之后。
-把html代码填写到对应的位置
+
+主题预留了三个位置可供插入广告，分别为主页文章(每三篇文章出现广告)/aside 公告之后/文章页打赏之后。
+把 html 代码填写到对应的位置
 
 修改 `主题配置文件`
 
@@ -411,16 +419,15 @@ ad:
   post:
 ```
 
-例如: 
+例如:
 
 ```yml
 index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="xxxxxxxxxxxx" data-ad-client="ca-pub-xxxxxxxxxx" data-ad-slot="xxxxxxxxxx"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
 ```
 
-
 ## 页面加载动画
 
-当进入网页时，因为加载速度的问题，可能会导致 top_img 图片出现断层显示，或者网页加载不全而出现等待时间，开启preloader后，会显示加载动画，等页面加载完，加载动画会消失。
+当进入网页时，因为加载速度的问题，可能会导致 top_img 图片出现断层显示，或者网页加载不全而出现等待时间，开启 preloader 后，会显示加载动画，等页面加载完，加载动画会消失。
 
 主题支持 pace.js 的加载动画，具体可查看 [pace.js](https://codebyzach.github.io/pace/)
 
@@ -439,7 +446,6 @@ preloader:
   pace_css_url:
   avatar: # 自定义头像
 ```
-
 
 ## 图片大图查看模式
 
@@ -464,7 +470,7 @@ medium_zoom: true
 
 ## Pjax
 
-当用户点击链接，通过ajax更新页面需要变化的部分，然后使用HTML5的pushState修改浏览器的URL地址。
+当用户点击链接，通过 ajax 更新页面需要变化的部分，然后使用 HTML5 的 pushState 修改浏览器的 URL 地址。
 
 这样可以不用重复加载相同的资源（css/js）， 从而提升网页的加载速度。
 
@@ -472,7 +478,7 @@ medium_zoom: true
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
-pjax: 
+pjax:
   enable: true
   exclude:
     - /music/
@@ -484,20 +490,20 @@ pjax:
 你可以把网页加入到 exclude 里，这个网页会被 pjax 排除在外。
 点击该网页会重新加载网站
 
-使用pjax后，一些自己DIY的js可能会无效，跳转页面时需要重新调用，请参考[Pjax文档](https://github.com/MoOx/pjax)
+使用 pjax 后，一些自己 DIY 的 js 可能会无效，跳转页面时需要重新调用，请参考[Pjax 文档](https://github.com/MoOx/pjax)
 
-使用pjax后，一些个别页面加载的js/css，将会改为所有页面都加载
+使用 pjax 后，一些个别页面加载的 js/css，将会改为所有页面都加载
 :::
 
 ::: warning
 
-主题默认开启Pjax，大量服务依赖于pjax，关闭可能会造成破坏性问题。
-主题对pjax做了深度适配，关闭可能会造成严重的后果，比如某些链接无法跳转。
+主题默认开启 Pjax，大量服务依赖于 pjax，关闭可能会造成破坏性问题。
+主题对 pjax 做了深度适配，关闭可能会造成严重的后果，比如某些链接无法跳转。
 
-安知鱼主题的的Pjax目前仍有一些问题，请留意
+安知鱼主题的的 Pjax 目前仍有一些问题，请留意
 
 使用谷歌广告可能会报错（例如自动广告）
-如果你在使用中发现问题，欢迎反馈Bugs
+如果你在使用中发现问题，欢迎反馈 Bugs
 
 :::
 
@@ -515,9 +521,10 @@ Snackbar 弹窗,根据自己爱好开启
 snackbar:
   enable: true
   position: bottom-left
-  bg_light: '#49b1f5' #light mode时弹窗背景
-  bg_dark: '#2d3035' #dark mode时弹窗背景
+  bg_light: "#49b1f5" #light mode时弹窗背景
+  bg_dark: "#2d3035" #dark mode时弹窗背景
 ```
+
 ## Pangu
 
 > 如果你跟我一样，每次看到网页上的中文字和英文、数字、符号挤在一块，就会坐立难安，忍不住想在它们之间加个空格。这个外挂正是你在网路世界走跳所需要的东西，它会自动替你在网页中所有的中文字和半形的英文、数字、符号之间插入空白。
@@ -536,9 +543,10 @@ pangu:
 
 ## PWA
 
-PWA是web优化的一种手段，主题做了一定的适配，但是依然需要进行配置。要为AnZhiYu配上 PWA 特性, 你可以进行选择以下两种方式来进行适配，`hexo-offline`适合初学者，`hexo-swpp`适合已经对`service worker`有一定解决问题能力的进阶使用。
+PWA 是 web 优化的一种手段，主题做了一定的适配，但是依然需要进行配置。要为 AnZhiYu 配上 PWA 特性, 你可以进行选择以下两种方式来进行适配，`hexo-offline`适合初学者，`hexo-swpp`适合已经对`service worker`有一定解决问题能力的进阶使用。
 
 ### hexo-offline
+
 1. 打开 hexo 工作目录
 2. <mark style="color:blue;">`npm install hexo-offline --save`</mark> 或者 <mark style="color:blue;">`yarn add hexo-offline`</mark>
 3. 在根目录创建 <mark style="color:blue;">`hexo-offline.config.cjs`</mark> 文件，并增加以下内容。
@@ -650,26 +658,26 @@ pwa:
 
 6. 可以通过<mark style="color:blue;">`Chrome`</mark>插件<mark style="color:blue;">`Lighthouse`</mark>检查 PWA 配置是否生效以及配置是否正确。
 
-* 打开博客页面
-* 启动<mark style="color:blue;">`Lighthouse`</mark>插件 (Lighthouse插件要求至少包含一个 512\*512 像素的图标)
+- 打开博客页面
+- 启动<mark style="color:blue;">`Lighthouse`</mark>插件 (Lighthouse 插件要求至少包含一个 512\*512 像素的图标)
 
 关于 PWA（渐进式增强 Web 应用）的更多内容请参考 [Google Tools for Web Developersopen](https://developers.google.com/web/tools/lighthouse/audits/address-bar)
 
-7. 生成pwa启动图
+7. 生成 pwa 启动图
 
-* 安装 pwa-asset-generator，执行以下命令
+- 安装 pwa-asset-generator，执行以下命令
   ```bash
   npm install pwa-asset-generator
   ```
-* hexo根目录执行`hexo g`后执行以下命令
+- hexo 根目录执行`hexo g`后执行以下命令
   ```bash
   npx pwa-asset-generator ./public/img/512.png ./public/img/siteicon --padding "calc(50vh - 20%) calc(50vw - 40%)" -s false -h true
   ```
-* 这条命令会使用<mark style="color:blue;">`themes/source/img/512.png`</mark>这张图片来生成siteicon到目录<mark style="color:blue;">`/public/img/siteicon`</mark>中，由于<mark style="color:blue;">`hexo cl`</mark>会清除<mark style="color:blue;">`/public`</mark>目录中的文件，所以每次<mark style="color:blue;">`hexo d`</mark>之前都需要执行，如果不想每次<mark style="color:blue;">`hexo d`</mark>之前都执行的话，可以将主题中的<mark style="color:blue;">`themes/source/img/512.png`</mark>图片复制移动到`根目录`<mark style="color:blue;">`/source/img`</mark>中，然后将生成后的<mark style="color:blue;">`/public/img/siteicon`</mark>文件夹复制到`根目录`<mark style="color:blue;">`/source/img`</mark>中，这样`根目录`<mark style="color:blue;">`/source/img`</mark>中就会一直有<mark style="color:blue;">`siteicon`</mark>，以后执行<mark style="color:blue;">`hexo g`</mark>时，也会将<mark style="color:blue;">`siteicon`</mark>生成到<mark style="color:blue;">`public`</mark>目录中。
+- 这条命令会使用<mark style="color:blue;">`themes/source/img/512.png`</mark>这张图片来生成 siteicon 到目录<mark style="color:blue;">`/public/img/siteicon`</mark>中，由于<mark style="color:blue;">`hexo cl`</mark>会清除<mark style="color:blue;">`/public`</mark>目录中的文件，所以每次<mark style="color:blue;">`hexo d`</mark>之前都需要执行，如果不想每次<mark style="color:blue;">`hexo d`</mark>之前都执行的话，可以将主题中的<mark style="color:blue;">`themes/source/img/512.png`</mark>图片复制移动到`根目录`<mark style="color:blue;">`/source/img`</mark>中，然后将生成后的<mark style="color:blue;">`/public/img/siteicon`</mark>文件夹复制到`根目录`<mark style="color:blue;">`/source/img`</mark>中，这样`根目录`<mark style="color:blue;">`/source/img`</mark>中就会一直有<mark style="color:blue;">`siteicon`</mark>，以后执行<mark style="color:blue;">`hexo g`</mark>时，也会将<mark style="color:blue;">`siteicon`</mark>生成到<mark style="color:blue;">`public`</mark>目录中。
 
 ### hexo-swpp
 
-主题版本大于1.5.2支持，这种加载办法为极其迅速，由sw控制其缓存，实现原理以及配置请查看以下三篇文章
+主题版本大于 1.5.2 支持，这种加载办法为极其迅速，由 sw 控制其缓存，实现原理以及配置请查看以下三篇文章
 
 [hexo-swpp](https://github.com/EmptyDreams/hexo-swpp#readme)
 
@@ -677,121 +685,126 @@ pwa:
 
 [Swpp Backends 官方文档](https://kmar.top/posts/b70ec88f/)
 
-
 配置方法：
 
-1. 安装hexo-swpp插件和swpp-backends，在博客根目录执行
-    ```bash
-    npm install hexo-swpp --save
-    npm install swpp-backends --save
-    ```
+1. 安装 hexo-swpp 插件和 swpp-backends，在博客根目录执行
+   ```bash
+   npm install hexo-swpp --save
+   npm install swpp-backends --save
+   ```
 2. 在`主题配置文件`中开启 pwa 选项。
-    ```yaml
-    # PWA
-    # See https://github.com/JLHwung/hexo-offline
-    # ---------------
-    pwa:
-      enable: true
-      startup_image_enable: true
-      manifest: /manifest.json
-      theme_color: var(--anzhiyu-main)
-      mask_icon: /img/siteicon/apple-icon-180.png
-      apple_touch_icon: /img/siteicon/apple-icon-180.png
-      bookmark_icon: /img/siteicon/apple-icon-180.png
-      favicon_32_32: /img/siteicon/32.png
-      favicon_16_16: /img/siteicon/16.png
-    ```
+   ```yaml
+   # PWA
+   # See https://github.com/JLHwung/hexo-offline
+   # ---------------
+   pwa:
+     enable: true
+     startup_image_enable: true
+     manifest: /manifest.json
+     theme_color: var(--anzhiyu-main)
+     mask_icon: /img/siteicon/apple-icon-180.png
+     apple_touch_icon: /img/siteicon/apple-icon-180.png
+     bookmark_icon: /img/siteicon/apple-icon-180.png
+     favicon_32_32: /img/siteicon/32.png
+     favicon_16_16: /img/siteicon/16.png
+   ```
 3. 在 hexo 的配置文件中添加如下内容即可启用插件：
-    ```yml
-    swpp:
-      # 是否启用插件
-      enable: true
-      # 是否在发布前自动执行脚本
-      # auto_exec: true
-    ```
 
-4.  在创建`source/`目录中创建`manifest.json`文件。
-    ```json
-    {
-      "name": "安知鱼`Blog",
-      "short_name": "安知鱼",
-      "theme_color": "#3b70fc",
-      "background_color": "#3b70fc",
-      "display": "fullscreen",
-      "scope": "/",
-      "start_url": "/",
-      "id": "/",
-      "icons": [
-        {
-          "src": "img/siteicon/manifest-icon-192.maskable.png",
-          "sizes": "192x192",
-          "type": "image/png",
-          "purpose": "any"
-        },
-        {
-          "src": "img/siteicon/manifest-icon-192.maskable.png",
-          "sizes": "192x192",
-          "type": "image/png",
-          "purpose": "maskable"
-        },
-        {
-          "src": "img/siteicon/manifest-icon-512.maskable.png",
-          "sizes": "512x512",
-          "type": "image/png",
-          "purpose": "any"
-        },
-        {
-          "src": "img/siteicon/manifest-icon-512.maskable.png",
-          "sizes": "512x512",
-          "type": "image/png",
-          "purpose": "maskable"
-        }
-      ],
-      "splash_pages": null
-    }
-    ```
+   ```yml
+   swpp:
+     # 是否启用插件
+     enable: true
+     # 是否在发布前自动执行脚本
+     # auto_exec: true
+   ```
 
-    你也可以通过 [Web App Manifestopen](https://app-manifest.firebaseapp.com/) 快速创建`manifest.json`。（Web App Manifest 要求至少包含一个 512\*512 像素的图标）
+4. 在创建`source/`目录中创建`manifest.json`文件。
+
+   ```json
+   {
+     "name": "安知鱼`Blog",
+     "short_name": "安知鱼",
+     "theme_color": "#3b70fc",
+     "background_color": "#3b70fc",
+     "display": "fullscreen",
+     "scope": "/",
+     "start_url": "/",
+     "id": "/",
+     "icons": [
+       {
+         "src": "img/siteicon/manifest-icon-192.maskable.png",
+         "sizes": "192x192",
+         "type": "image/png",
+         "purpose": "any"
+       },
+       {
+         "src": "img/siteicon/manifest-icon-192.maskable.png",
+         "sizes": "192x192",
+         "type": "image/png",
+         "purpose": "maskable"
+       },
+       {
+         "src": "img/siteicon/manifest-icon-512.maskable.png",
+         "sizes": "512x512",
+         "type": "image/png",
+         "purpose": "any"
+       },
+       {
+         "src": "img/siteicon/manifest-icon-512.maskable.png",
+         "sizes": "512x512",
+         "type": "image/png",
+         "purpose": "maskable"
+       }
+     ],
+     "splash_pages": null
+   }
+   ```
+
+   你也可以通过 [Web App Manifestopen](https://app-manifest.firebaseapp.com/) 快速创建`manifest.json`。（Web App Manifest 要求至少包含一个 512\*512 像素的图标）
+
 5. 可以通过`Chrome`插件`Lighthouse`检查 PWA 配置是否生效以及配置是否正确。
-    打开博客页面启动`Lighthouse`插件 (Lighthouse插件要求至少包含一个 512\*512 像素的图标)
-    关于 PWA（渐进式增强 Web 应用）的更多内容请参考 [Google Tools for Web Developersopen](https://developers.google.com/web/tools/lighthouse/audits/address-bar)
+   打开博客页面启动`Lighthouse`插件 (Lighthouse 插件要求至少包含一个 512\*512 像素的图标)
+   关于 PWA（渐进式增强 Web 应用）的更多内容请参考 [Google Tools for Web Developersopen](https://developers.google.com/web/tools/lighthouse/audits/address-bar)
 
-6. 生成pwa启动图
+6. 生成 pwa 启动图
    安装`pwa-asset-generator`
    ```bash
    npm install pwa-asset-generator
    ```
-  hexo根目录执行`hexo g`然后执行
-  ```bash
-  npx pwa-asset-generator ./public/img/512.png ./public/img/siteicon --padding "calc(50vh - 20%) calc(50vw - 40%)" -s false -h true
-  ```
-  这条命令会使用`themes/anzhiyu/source/img/512.png`这张图片来生成siteicon到目录`/public/img/siteicon`中，由于`hexo cl`会清除`/public`目录中的文件，所以每次`hexo d`之前都需要执行，如果不想每次`hexo d`之前都执行的话，可以将主题中的`themes/anzhiyu/source/img/512.png`图片复制移动到`根目录``/source/img`中，然后将生成后的`/public/img/siteicon`文件夹复制到`根目录``/source/img`中，这样`根目录``/source/img`中就会一直有`siteicon`，以后执行`hexo g`时，也会将`siteicon`生成到`public`目录中。
+   hexo 根目录执行`hexo g`然后执行
 
-7. 在hexo g以后执行一次hexo swpp命令
-  如果你的网站使用了 CDN 且启用了 CDN 端缓存，请务必将 CDN 缓存时间调整至最大值，然后每次更新网页内容后手动刷新 CDN 缓存。
-  因为本插件的更新方案要求`update.json`更新时，其它所有需要更新的资源均已更新，否则客户端拉取时会误以为拉取到了最新的内容，从而导致部分资源“错过”更新。
-  简而言之，就是`update.json`必须与需要缓存的资源共享同样的 CDN 缓存周期，但是目前市面上我知道的 CDN 无法做到这一点，所以只能从下列选项中二选一
-    - 把所有资源的 CDN 缓存时间拉满，每次更新网站时刷新 CDN 缓存
-    - CDN 不缓存所有需要在客户端缓存的资源
-  
-    Netlify 构建后自动刷新 CDN 缓存的教程见：[《全自动博客部署方案》](https://kmar.top/posts/a427ed12/)
-    请务必注意 CDN 缓存的问题！！！
-    默认主题将只缓存404和index.css如果你需要配置自己的缓存策略，请在博客根目录新建`sw-rules.js`
-    请注意⚠️定期或不定期检查hexo swpp 是否存在更新，以及查看更新日志对配置做出最新的更改
+```bash
+npx pwa-asset-generator ./public/img/512.png ./public/img/siteicon --padding "calc(50vh - 20%) calc(50vw - 40%)" -s false -h true
+```
+
+这条命令会使用`themes/anzhiyu/source/img/512.png`这张图片来生成 siteicon 到目录`/public/img/siteicon`中，由于`hexo cl`会清除`/public`目录中的文件，所以每次`hexo d`之前都需要执行，如果不想每次`hexo d`之前都执行的话，可以将主题中的`themes/anzhiyu/source/img/512.png`图片复制移动到` 根目录``/source/img `中，然后将生成后的`/public/img/siteicon`文件夹复制到` 根目录``/source/img `中，这样` 根目录``/source/img `中就会一直有`siteicon`，以后执行`hexo g`时，也会将`siteicon`生成到`public`目录中。
+
+7. 在 hexo g 以后执行一次 hexo swpp 命令
+   如果你的网站使用了 CDN 且启用了 CDN 端缓存，请务必将 CDN 缓存时间调整至最大值，然后每次更新网页内容后手动刷新 CDN 缓存。
+   因为本插件的更新方案要求`update.json`更新时，其它所有需要更新的资源均已更新，否则客户端拉取时会误以为拉取到了最新的内容，从而导致部分资源“错过”更新。
+   简而言之，就是`update.json`必须与需要缓存的资源共享同样的 CDN 缓存周期，但是目前市面上我知道的 CDN 无法做到这一点，所以只能从下列选项中二选一
+
+   - 把所有资源的 CDN 缓存时间拉满，每次更新网站时刷新 CDN 缓存
+   - CDN 不缓存所有需要在客户端缓存的资源
+
+   Netlify 构建后自动刷新 CDN 缓存的教程见：[《全自动博客部署方案》](https://kmar.top/posts/a427ed12/)
+   请务必注意 CDN 缓存的问题！！！
+   默认主题将只缓存 404 和 index.css 如果你需要配置自己的缓存策略，请在博客根目录新建`sw-rules.js`
+   请注意 ⚠️ 定期或不定期检查 hexo swpp 是否存在更新，以及查看更新日志对配置做出最新的更改
 
 ::: warning
 
-主题默认内置了一份sw-rules.js规则，位于`themes/anzhiyu/sw-rules.js`可以开箱即用，如需自定义缓存规则可以复制该文件至hexo根目录然后修改根目录的sw-rules.js。
+主题默认内置了一份 sw-rules.js 规则，位于`themes/anzhiyu/sw-rules.js`可以开箱即用，如需自定义缓存规则可以复制该文件至 hexo 根目录然后修改根目录的 sw-rules.js。
 
 :::
 
+8. 安知鱼主题适配 hexo-swpp3.2+，swpp-backends2.0+更多内容请参考
+   [Swpp Backends 官方文档](https://kmar.top/posts/b70ec88f/)
+   [hexo-swpp](https://github.com/EmptyDreams/hexo-swpp#readme)
+   [swpp-backends](https://github.com/EmptyDreams/swpp-backends)
+   [解剖 SW 原理暨博主 SW 实现](https://kmar.top/posts/bcfe8408/)
+   [小白也能用的 SW 构建插件](https://kmar.top/posts/73014407/)
 
-8. 安知鱼主题适配hexo-swpp3.2+，swpp-backends2.0+更多内容请参考
-  [Swpp Backends 官方文档](https://kmar.top/posts/b70ec88f/)
-  [hexo-swpp](https://github.com/EmptyDreams/hexo-swpp#readme)
-  [swpp-backends](https://github.com/EmptyDreams/swpp-backends)
-  [解剖SW原理暨博主SW实现](https://kmar.top/posts/bcfe8408/)
-  [小白也能用的 SW 构建插件](https://kmar.top/posts/73014407/)
 ## Open Graph
 
 在 `head` 里增加一些 meta 资料，例如缩略图、标题、时间等等。当你分享网页到一些平台时，平台会读取 Open Graph 的内容，展示缩略图，标题等等信息。
@@ -828,9 +841,9 @@ css_prefix: true
 
 ## Inject
 
-如想添加额外的js/css/meta等等东西，可以在Inject里添加，支持添加到head(`</body>`标签之前)和bottom(`</html>`标签之前)。
+如想添加额外的 js/css/meta 等等东西，可以在 Inject 里添加，支持添加到 head(`</body>`标签之前)和 bottom(`</html>`标签之前)。
 
-请注意：以标准的html格式添加内容
+请注意：以标准的 html 格式添加内容
 
 ```yml
 inject:
@@ -839,15 +852,16 @@ inject:
   bottom:
   	- <script src="xxxx"></script>
 ```
+
 留意: 如果你的网站根目录不是'/',使用本地图片时，需加上你的根目录。
 
 例如：网站是 `https://yoursite.com/blog,引用css/xx.css`，则设置为`<link rel="stylesheet" href="/blog/css/xx.css">`
 
 ## CDN
-配置文件中最后一部分CDN，里面是主题所引用到的文件，可自行配置CDN。（非必要请勿修改，配置后请确认链接是否能访问）
+
+配置文件中最后一部分 CDN，里面是主题所引用到的文件，可自行配置 CDN。（非必要请勿修改，配置后请确认链接是否能访问）
 
 ```yml
-
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要请不要修改
@@ -931,14 +945,13 @@ CDN:
     # accesskey_js:
 ```
 
-| 参数                 | 解释                                                         |
-| -------------------- | ------------------------------------------------------------ |
-| internal_provider    | 主题内部文件<br/>可选 local/jsdelivr/unpkg/cdnjs/custom<br/>lcoal 为本地加载，custom 为自定义格式，需配置 `custom_format`<br/>**注意**: 如果使用的是 Dev 版，只能设置为 local |
+| 参数                 | 解释                                                                                                                                                                                                              |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| internal_provider    | 主题内部文件<br/>可选 local/jsdelivr/unpkg/cdnjs/custom<br/>lcoal 为本地加载，custom 为自定义格式，需配置 `custom_format`<br/>**注意**: 如果使用的是 Dev 版，只能设置为 local                                     |
 | third_party_provider | 第三方文件<br/>可选 local/jsdelivr/unpkg/cdnjs/custom<br/>lcoal 为本地加载，custom 为自定义格式，需配置 custom_format<br/>**注意**: 如果你选择 local 则需要自行将文件都下载至本地，并修改对应的选项，否则会报错。 |
-| version              | true/false 为 cdn 加上指定版本号                             |
-| custom_format        | 自定义格式                                                   |
-| option               | 你可以在这里更换部分文件,会覆盖原有的配置                    |
-
+| version              | true/false 为 cdn 加上指定版本号                                                                                                                                                                                  |
+| custom_format        | 自定义格式                                                                                                                                                                                                        |
+| option               | 你可以在这里更换部分文件,会覆盖原有的配置                                                                                                                                                                         |
 
 ### version
 
@@ -947,28 +960,25 @@ CDN:
 请确保你修改的版本号，你所使用的 cdn 有收录
 
 ### custom_format
+
 提供以下参数
 
-| 参数                 | 解释                                                         |
-| -------------------- | ------------------------------------------------------------ |
-| name    | npm 上的包名 |
-| file | npm 上的文件路径 |
-| min_file              | cdnjs 上的包名                |
-| cdnjs_file        | cdnjs 上的文件路径                                              |
-| min_cdnjs_file               | cdnjs 上的文件路径（压缩过的文件）                    |
-| version               | 插件版本号                   |
-	
+| 参数           | 解释                               |
+| -------------- | ---------------------------------- |
+| name           | npm 上的包名                       |
+| file           | npm 上的文件路径                   |
+| min_file       | cdnjs 上的包名                     |
+| cdnjs_file     | cdnjs 上的文件路径                 |
+| min_cdnjs_file | cdnjs 上的文件路径（压缩过的文件） |
+| version        | 插件版本号                         |
+
 部分可用的第三方 CDN 列表
 
 > 请确保你选择的 CDN 有收录主题使用的第三方插件
 
-| 提供商               | 格式                                                         | 备注       |
-| -------------------- | ------------------------------------------------------------ | ---------- |
-| [Staticfile（七牛云）](https://www.staticfile.org/) | https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file} | 同步 cdnjs |
-| [BootCDN](https://www.bootcdn.cn/)              | https://cdn.bootcdn.net/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file} | 同步 cdnjs |
-| [Baomitu（360）](https://cdn.baomitu.com/)       | 最新版本： https://lib.baomitu.com/${cdnjs_name}/latest/${min_cdnjs_file}<br />指定版本： https://lib.baomitu.com/${cdnjs_name}/${version}/${min_cdnjs_file} | 同步 cdnjs |
-| Elemecdn             | 最新版本： https://npm.elemecdn.com/${name}@latest/${file}<br />指定版本： https://npm.elemecdn.com/${name}@${version}/${file} | 同步 npm   |
-
-	
-	
-	
+| 提供商                                              | 格式                                                                                                                                                         | 备注       |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
+| [Staticfile（七牛云）](https://www.staticfile.org/) | https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}                                                                                        | 同步 cdnjs |
+| [BootCDN](https://www.bootcdn.cn/)                  | https://cdn.bootcdn.net/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}                                                                                 | 同步 cdnjs |
+| [Baomitu（360）](https://cdn.baomitu.com/)          | 最新版本： https://lib.baomitu.com/${cdnjs_name}/latest/${min_cdnjs_file}<br />指定版本： https://lib.baomitu.com/${cdnjs_name}/${version}/${min_cdnjs_file} | 同步 cdnjs |
+| Elemecdn                                            | 最新版本： https://npm.elemecdn.com/${name}@latest/${file}<br />指定版本： https://npm.elemecdn.com/${name}@${version}/${file}                               | 同步 npm   |

@@ -16,7 +16,7 @@
 
 <p align="center">🇨🇳 中文简体  |  <a title="English" href="README_EN.md">🇬🇧 English</a></p>
 
-预览: 👍 [AnZhiYu](https://blog.anheyu.com/) || 🤞 [AnZhiYu](https://index.anheyu.com/)
+预览: 👍 [AnZhiYu](https://hexo.anheyu.com/) || 🤞 [AnZhiYu](https://index.anheyu.com/)
 
 文档: 📖 [anzhiyu Docs](https://docs.anheyu.com/)
 
@@ -62,18 +62,19 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 - windows
   复制`/themes/anzhiyu/_config.yml`此文件到 hexo 根目录，并重命名为`_config.anzhiyu.yml`
 
-以后如果修改任何主题配置，都只需修改 _config.anzhiyu.yml 的配置即可。
+以后如果修改任何主题配置，都只需修改 \_config.anzhiyu.yml 的配置即可。
 
 注意：
- - 只要存在于 `_config.anzhiyu.yml` 的配置都是高优先级，修改原 `_config.yml` 是无效的。
- - 每次更新主题可能存在配置变更，请注意更新说明，可能需要手动对 `_config.anzhiyu.yml` 同步修改。
- - 想查看覆盖配置有没有生效，可以通过 `hexo g --debug` 查看命令行输出。
- - 如果想将某些配置覆盖为空，注意不要把主键删掉，不然是无法覆盖的
+
+- 只要存在于 `_config.anzhiyu.yml` 的配置都是高优先级，修改原 `_config.yml` 是无效的。
+- 每次更新主题可能存在配置变更，请注意更新说明，可能需要手动对 `_config.anzhiyu.yml` 同步修改。
+- 想查看覆盖配置有没有生效，可以通过 `hexo g --debug` 查看命令行输出。
+- 如果想将某些配置覆盖为空，注意不要把主键删掉，不然是无法覆盖的
 
 ## 功能特性
 
 - [x] 无比详实的[用户文档](https://docs.anheyu.com/)
-- [x] 页面组件懒加载(pjax方案)
+- [x] 页面组件懒加载(pjax 方案)
 - [x] 图片懒加载
 - [x] 多种代码高亮方案
 - [x] 多语言配置
@@ -81,26 +82,26 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 - [x] 内置网页访问统计
 - [x] 支持暗色模式
 - [x] 支持脚注语法
-- [x] 支持自定义CDN静态资源
+- [x] 支持自定义 CDN 静态资源
 - [x] 丰富多样化的标签选项快速构建你想要的功能
 - [x] 支持定制化的右键菜单
 - [x] 支持定制化的主色调随封面图片颜色变化
 - [x] 支持沉浸式状态栏
 - [x] 支持文章字数统计
 - [x] 支持聊天系统
-- [x] 支持谷歌分析、百度分析、微软分析、cloudflare分析、cnzz分析
+- [x] 支持谷歌分析、百度分析、微软分析、cloudflare 分析、cnzz 分析
 - [x] 支持广告挂载
 - [x] 支持图片大图查看
 - [x] 支持瀑布流即刻说说
 - [x] 支持瀑布流相册集
-- [x] 支持阿里图标与fontawesome
-- [x] 支持高速缓存的swpp，pwa特性
+- [x] 支持阿里图标与 fontawesome
+- [x] 支持高速缓存的 swpp，pwa 特性
 - [x] 优秀的隐私协议支持
-- [x] 文章AI摘要支持
+- [x] 文章 AI 摘要支持
 - [x] 支持音乐球
 - [x] 支持全局中控台
 - [x] 支持快捷键选项
-- [x] 支持本地搜索/algolia搜索🔍/Docsearch
+- [x] 支持本地搜索/algolia 搜索 🔍/Docsearch
 - [x] 支持 LaTeX 数学公式
 - [x] 支持 mermaid 流程图
 

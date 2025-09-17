@@ -93,7 +93,7 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog.anheyu.com/
+          link: https://hexo.anheyu.com/
           icon: /img/favicon.png
     - title: 项目
       item:
@@ -156,7 +156,6 @@ nav:
 `mac light`
 
 ![mac light](https://img02.anheyu.com/adminuploads/1/2023/04/10/6433acf038752.png)
-
 
 修改 `主题配置文件`
 
@@ -277,17 +276,18 @@ icons:
 
 ![社交图标](https://bu.dusays.com/2023/08/29/64eda5df0196d.png)
 
-社交图标配置完以后个人卡片会出现图标内容，图标左边的内容为你的站点信息，在hexo的配置文件`_config.yml`中配置`author`和`subtitle`字段
+社交图标配置完以后个人卡片会出现图标内容，图标左边的内容为你的站点信息，在 hexo 的配置文件`_config.yml`中配置`author`和`subtitle`字段
 
 ![](https://bu.dusays.com/2023/08/29/64eda70d5478c.webp)
 
 ## 个人卡片
 
-个人卡片hover后的显示描述，该描述请在[侧边栏配置](https://docs.anheyu.com/global/extra.html#%E4%BE%A7%E8%BE%B9%E6%A0%8F%E8%AE%BE%E7%BD%AE)中的`aside.card_author.description`中修改，支持html显示。
+个人卡片 hover 后的显示描述，该描述请在[侧边栏配置](https://docs.anheyu.com/global/extra.html#%E4%BE%A7%E8%BE%B9%E6%A0%8F%E8%AE%BE%E7%BD%AE)中的`aside.card_author.description`中修改，支持 html 显示。
 
 ![](https://bu.dusays.com/2023/08/29/64eda8cce4fb4.webp)
 
 卡片顶部的状态配置：
+
 ```yml
 # 作者卡片 状态
 author_status:
@@ -304,6 +304,7 @@ author_status:
     - 🧱 团队小组发动机
     - 💢 壮汉人狠话不多
 ```
+
 ## 顶部图
 
 相关信息
